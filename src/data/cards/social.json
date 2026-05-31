@@ -1,0 +1,219 @@
+[
+  {
+    "id": "social-001",
+    "scenario": "social",
+    "main": { "en": "Hi, how are you?", "zh": "嗨，你好嗎？", "audio": "/audio/social/social-001.mp3" },
+    "replies": [
+      { "en": "I'm good, thanks. And you?", "zh": "我很好，謝謝，你呢？", "audio": "/audio/social/social-001-r1.mp3" }
+    ],
+    "tags": ["打招呼", "問候", "hello", "how are you"]
+  },
+  {
+    "id": "social-002",
+    "scenario": "social",
+    "main": { "en": "Good morning!", "zh": "早安！", "audio": "/audio/social/social-002.mp3" },
+    "replies": [
+      { "en": "Good morning! Have a great day.", "zh": "早安！祝你有美好的一天。", "audio": "/audio/social/social-002-r1.mp3" }
+    ],
+    "tags": ["早安", "打招呼", "good morning"]
+  },
+  {
+    "id": "social-003",
+    "scenario": "social",
+    "main": { "en": "Nice to meet you.", "zh": "很高興認識你。", "audio": "/audio/social/social-003.mp3" },
+    "replies": [
+      { "en": "Nice to meet you too.", "zh": "我也很高興認識你。", "audio": "/audio/social/social-003-r1.mp3" }
+    ],
+    "tags": ["認識", "初次見面", "nice to meet you"]
+  },
+  {
+    "id": "social-004",
+    "scenario": "social",
+    "main": { "en": "My name is Lin. What's your name?", "zh": "我叫 Lin，你叫什麼名字？", "audio": "/audio/social/social-004.mp3" },
+    "replies": [
+      { "en": "I'm Alex. Nice to meet you.", "zh": "我是 Alex，很高興認識你。", "audio": "/audio/social/social-004-r1.mp3" }
+    ],
+    "tags": ["自我介紹", "名字", "name"]
+  },
+  {
+    "id": "social-005",
+    "scenario": "social",
+    "main": { "en": "I'm from Taiwan.", "zh": "我來自台灣。", "audio": "/audio/social/social-005.mp3" },
+    "replies": [
+      { "en": "Oh, nice! How do you like it here?", "zh": "喔，真好！你喜歡這裡嗎？", "audio": "/audio/social/social-005-r1.mp3" }
+    ],
+    "tags": ["哪裡來", "台灣", "from", "國家"]
+  },
+  {
+    "id": "social-006",
+    "scenario": "social",
+    "main": { "en": "This is my first time here.", "zh": "這是我第一次來這裡。", "audio": "/audio/social/social-006.mp3" },
+    "replies": [
+      { "en": "Welcome! You'll love it.", "zh": "歡迎！你會喜歡的。", "audio": "/audio/social/social-006-r1.mp3" }
+    ],
+    "tags": ["第一次", "first time", "旅遊"]
+  },
+  {
+    "id": "social-007",
+    "scenario": "social",
+    "main": { "en": "I'm here on vacation.", "zh": "我是來度假的。", "audio": "/audio/social/social-007.mp3" },
+    "replies": [
+      { "en": "Great! How long are you staying?", "zh": "太好了！你會待多久？", "audio": "/audio/social/social-007-r1.mp3" }
+    ],
+    "tags": ["度假", "旅遊", "vacation"]
+  },
+  {
+    "id": "social-008",
+    "scenario": "social",
+    "main": { "en": "The weather is lovely today.", "zh": "今天天氣真好。", "audio": "/audio/social/social-008.mp3" },
+    "replies": [
+      { "en": "Yes, it's beautiful!", "zh": "對啊，真的很棒！", "audio": "/audio/social/social-008-r1.mp3" }
+    ],
+    "tags": ["天氣", "閒聊", "weather"]
+  },
+  {
+    "id": "social-009",
+    "scenario": "social",
+    "main": { "en": "Thank you so much.", "zh": "非常感謝你。", "audio": "/audio/social/social-009.mp3" },
+    "replies": [
+      { "en": "You're welcome!", "zh": "不客氣！", "audio": "/audio/social/social-009-r1.mp3" }
+    ],
+    "tags": ["謝謝", "道謝", "thank you"]
+  },
+  {
+    "id": "social-010",
+    "scenario": "social",
+    "main": { "en": "That's very kind of you.", "zh": "你人真好。", "audio": "/audio/social/social-010.mp3" },
+    "replies": [
+      { "en": "My pleasure.", "zh": "我的榮幸。", "audio": "/audio/social/social-010-r1.mp3" }
+    ],
+    "tags": ["客套", "感謝", "kind"]
+  },
+  {
+    "id": "social-011",
+    "scenario": "social",
+    "main": { "en": "Excuse me.", "zh": "不好意思／借過。", "audio": "/audio/social/social-011.mp3" },
+    "replies": [
+      { "en": "Sure, go ahead.", "zh": "好的，請。", "audio": "/audio/social/social-011-r1.mp3" }
+    ],
+    "tags": ["借過", "不好意思", "excuse me"]
+  },
+  {
+    "id": "social-012",
+    "scenario": "social",
+    "main": { "en": "I'm sorry.", "zh": "對不起。", "audio": "/audio/social/social-012.mp3" },
+    "replies": [
+      { "en": "It's okay, no worries.", "zh": "沒關係，別擔心。", "audio": "/audio/social/social-012-r1.mp3" }
+    ],
+    "tags": ["道歉", "對不起", "sorry"]
+  },
+  {
+    "id": "social-013",
+    "scenario": "social",
+    "main": { "en": "Sorry, my English isn't very good.", "zh": "抱歉，我的英文不太好。", "audio": "/audio/social/social-013.mp3" },
+    "replies": [
+      { "en": "No problem, you're doing great.", "zh": "沒問題，你說得很好。", "audio": "/audio/social/social-013-r1.mp3" }
+    ],
+    "tags": ["英文不好", "語言", "english"]
+  },
+  {
+    "id": "social-014",
+    "scenario": "social",
+    "main": { "en": "Sorry, I didn't catch that.", "zh": "抱歉，我沒聽清楚。", "audio": "/audio/social/social-014.mp3" },
+    "replies": [
+      { "en": "No problem, let me say it again.", "zh": "沒問題，我再說一次。", "audio": "/audio/social/social-014-r1.mp3" }
+    ],
+    "tags": ["沒聽清楚", "聽不懂", "catch that"]
+  },
+  {
+    "id": "social-015",
+    "scenario": "social",
+    "main": { "en": "Could you speak more slowly, please?", "zh": "可以說慢一點嗎？", "audio": "/audio/social/social-015.mp3" },
+    "replies": [
+      { "en": "Of course.", "zh": "當然。", "audio": "/audio/social/social-015-r1.mp3" }
+    ],
+    "tags": ["慢一點", "slower", "聽不懂"]
+  },
+  {
+    "id": "social-016",
+    "scenario": "social",
+    "main": { "en": "How do you say this in English?", "zh": "這個用英文怎麼說？", "audio": "/audio/social/social-016.mp3" },
+    "replies": [
+      { "en": "We call it a 'kettle'.", "zh": "我們叫它 kettle（水壺）。", "audio": "/audio/social/social-016-r1.mp3" }
+    ],
+    "tags": ["怎麼說", "英文", "how do you say"]
+  },
+  {
+    "id": "social-017",
+    "scenario": "social",
+    "main": { "en": "Can I take a photo here?", "zh": "我可以在這裡拍照嗎？", "audio": "/audio/social/social-017.mp3" },
+    "replies": [
+      { "en": "Sure, go ahead.", "zh": "可以，請拍。", "audio": "/audio/social/social-017-r1.mp3" },
+      { "en": "Sorry, photos aren't allowed here.", "zh": "抱歉，這裡不能拍照。", "audio": "/audio/social/social-017-r2.mp3" }
+    ],
+    "tags": ["拍照", "photo", "可以嗎"]
+  },
+  {
+    "id": "social-018",
+    "scenario": "social",
+    "main": { "en": "Could you take a photo of us?", "zh": "可以幫我們拍張照嗎？", "audio": "/audio/social/social-018.mp3" },
+    "replies": [
+      { "en": "Of course! Say cheese.", "zh": "當然！笑一個。", "audio": "/audio/social/social-018-r1.mp3" }
+    ],
+    "tags": ["幫忙拍照", "合照", "take a photo"]
+  },
+  {
+    "id": "social-019",
+    "scenario": "social",
+    "main": { "en": "No, thank you. I'm fine.", "zh": "不用了，謝謝，我可以。", "audio": "/audio/social/social-019.mp3" },
+    "replies": [
+      { "en": "Okay, let me know if you change your mind.", "zh": "好的，改變主意再跟我說。", "audio": "/audio/social/social-019-r1.mp3" }
+    ],
+    "tags": ["婉拒", "不用了", "no thanks"]
+  },
+  {
+    "id": "social-020",
+    "scenario": "social",
+    "main": { "en": "Sounds good!", "zh": "聽起來不錯！", "audio": "/audio/social/social-020.mp3" },
+    "replies": [
+      { "en": "Great, let's do it.", "zh": "太好了，就這麼辦。", "audio": "/audio/social/social-020-r1.mp3" }
+    ],
+    "tags": ["同意", "好啊", "sounds good"]
+  },
+  {
+    "id": "social-021",
+    "scenario": "social",
+    "main": { "en": "It was nice talking to you.", "zh": "和你聊天很愉快。", "audio": "/audio/social/social-021.mp3" },
+    "replies": [
+      { "en": "Likewise! Take care.", "zh": "我也是！保重。", "audio": "/audio/social/social-021-r1.mp3" }
+    ],
+    "tags": ["聊天愉快", "道別", "nice talking"]
+  },
+  {
+    "id": "social-022",
+    "scenario": "social",
+    "main": { "en": "Have a nice day!", "zh": "祝你有美好的一天！", "audio": "/audio/social/social-022.mp3" },
+    "replies": [
+      { "en": "You too, thanks!", "zh": "你也是，謝謝！", "audio": "/audio/social/social-022-r1.mp3" }
+    ],
+    "tags": ["祝福", "道別", "nice day"]
+  },
+  {
+    "id": "social-023",
+    "scenario": "social",
+    "main": { "en": "See you later. Goodbye!", "zh": "待會見，再見！", "audio": "/audio/social/social-023.mp3" },
+    "replies": [
+      { "en": "Bye! See you.", "zh": "再見！", "audio": "/audio/social/social-023-r1.mp3" }
+    ],
+    "tags": ["再見", "道別", "goodbye", "see you"]
+  },
+  {
+    "id": "social-024",
+    "scenario": "social",
+    "main": { "en": "Cheers!", "zh": "乾杯！", "audio": "/audio/social/social-024.mp3" },
+    "replies": [
+      { "en": "Cheers! To a great trip.", "zh": "乾杯！為這趟旅程。", "audio": "/audio/social/social-024-r1.mp3" }
+    ],
+    "tags": ["乾杯", "cheers", "敬酒"]
+  }
+]

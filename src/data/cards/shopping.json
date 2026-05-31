@@ -1,0 +1,221 @@
+[
+  {
+    "id": "shopping-001",
+    "scenario": "shopping",
+    "main": { "en": "I'm just looking, thanks.", "zh": "我只是看看，謝謝。", "audio": "/audio/shopping/shopping-001.mp3" },
+    "replies": [
+      { "en": "No problem, let me know if you need anything.", "zh": "沒問題，需要再叫我。", "audio": "/audio/shopping/shopping-001-r1.mp3" }
+    ],
+    "tags": ["看看", "逛", "just looking"]
+  },
+  {
+    "id": "shopping-002",
+    "scenario": "shopping",
+    "main": { "en": "Could you help me? I'm looking for a gift.", "zh": "可以幫我嗎？我想找一個送人的禮物。", "audio": "/audio/shopping/shopping-002.mp3" },
+    "replies": [
+      { "en": "Sure, who is it for?", "zh": "好的，是要送給誰呢？", "audio": "/audio/shopping/shopping-002-r1.mp3" }
+    ],
+    "tags": ["禮物", "gift", "幫忙"]
+  },
+  {
+    "id": "shopping-003",
+    "scenario": "shopping",
+    "main": { "en": "Do you have this in a larger size?", "zh": "這個有大一點的尺寸嗎？", "audio": "/audio/shopping/shopping-003.mp3" },
+    "replies": [
+      { "en": "Let me check the back for you.", "zh": "我幫您到後面找找看。", "audio": "/audio/shopping/shopping-003-r1.mp3" },
+      { "en": "Sorry, that's the largest we have.", "zh": "抱歉，這是我們最大的尺寸了。", "audio": "/audio/shopping/shopping-003-r2.mp3" }
+    ],
+    "tags": ["尺寸", "size", "大一點"]
+  },
+  {
+    "id": "shopping-004",
+    "scenario": "shopping",
+    "main": { "en": "Do you have this in another color?", "zh": "這個有別的顏色嗎？", "audio": "/audio/shopping/shopping-004.mp3" },
+    "replies": [
+      { "en": "Yes, it also comes in black and blue.", "zh": "有的，還有黑色和藍色。", "audio": "/audio/shopping/shopping-004-r1.mp3" }
+    ],
+    "tags": ["顏色", "color"]
+  },
+  {
+    "id": "shopping-005",
+    "scenario": "shopping",
+    "main": { "en": "Can I try this on?", "zh": "這個可以試穿嗎？", "audio": "/audio/shopping/shopping-005.mp3" },
+    "replies": [
+      { "en": "Of course, the fitting room is over there.", "zh": "當然，試衣間在那邊。", "audio": "/audio/shopping/shopping-005-r1.mp3" }
+    ],
+    "tags": ["試穿", "試衣間", "try on", "fitting room"]
+  },
+  {
+    "id": "shopping-006",
+    "scenario": "shopping",
+    "main": { "en": "It doesn't fit. It's too small.", "zh": "不合身，太小了。", "audio": "/audio/shopping/shopping-006.mp3" },
+    "replies": [
+      { "en": "I'll get you the next size up.", "zh": "我幫您拿大一號的。", "audio": "/audio/shopping/shopping-006-r1.mp3" }
+    ],
+    "tags": ["不合身", "太小", "fit", "尺寸"]
+  },
+  {
+    "id": "shopping-007",
+    "scenario": "shopping",
+    "main": { "en": "How much is this?", "zh": "這個多少錢？", "audio": "/audio/shopping/shopping-007.mp3" },
+    "replies": [
+      { "en": "It's twenty-five dollars.", "zh": "二十五元。", "audio": "/audio/shopping/shopping-007-r1.mp3" }
+    ],
+    "tags": ["價格", "多少錢", "how much", "price"]
+  },
+  {
+    "id": "shopping-008",
+    "scenario": "shopping",
+    "main": { "en": "That's a bit too expensive for me.", "zh": "這對我來說有點太貴了。", "audio": "/audio/shopping/shopping-008.mp3" },
+    "replies": [
+      { "en": "We have similar ones for less over here.", "zh": "這邊有類似但比較便宜的。", "audio": "/audio/shopping/shopping-008-r1.mp3" }
+    ],
+    "tags": ["太貴", "expensive", "價格"]
+  },
+  {
+    "id": "shopping-009",
+    "scenario": "shopping",
+    "main": { "en": "Is this on sale?", "zh": "這個有特價嗎？", "audio": "/audio/shopping/shopping-009.mp3" },
+    "replies": [
+      { "en": "Yes, it's twenty percent off.", "zh": "有，打八折。", "audio": "/audio/shopping/shopping-009-r1.mp3" }
+    ],
+    "tags": ["特價", "折扣", "sale", "discount"]
+  },
+  {
+    "id": "shopping-010",
+    "scenario": "shopping",
+    "main": { "en": "Can you give me a discount?", "zh": "可以算便宜一點嗎？", "audio": "/audio/shopping/shopping-010.mp3" },
+    "replies": [
+      { "en": "I can take ten percent off.", "zh": "我可以幫您打九折。", "audio": "/audio/shopping/shopping-010-r1.mp3" },
+      { "en": "Sorry, the prices are fixed.", "zh": "抱歉，我們是不二價。", "audio": "/audio/shopping/shopping-010-r2.mp3" }
+    ],
+    "tags": ["殺價", "便宜", "discount", "議價"]
+  },
+  {
+    "id": "shopping-011",
+    "scenario": "shopping",
+    "main": { "en": "I'll take it.", "zh": "我要買這個。", "audio": "/audio/shopping/shopping-011.mp3" },
+    "replies": [
+      { "en": "Great. Will that be all?", "zh": "好的，這樣就好了嗎？", "audio": "/audio/shopping/shopping-011-r1.mp3" }
+    ],
+    "tags": ["買", "結帳", "take it"]
+  },
+  {
+    "id": "shopping-012",
+    "scenario": "shopping",
+    "main": { "en": "I'll think about it, thanks.", "zh": "我再考慮看看，謝謝。", "audio": "/audio/shopping/shopping-012.mp3" },
+    "replies": [
+      { "en": "Sure, take your time.", "zh": "好的，您慢慢看。", "audio": "/audio/shopping/shopping-012-r1.mp3" }
+    ],
+    "tags": ["考慮", "再想想", "think about it"]
+  },
+  {
+    "id": "shopping-013",
+    "scenario": "shopping",
+    "main": { "en": "Where do I pay?", "zh": "在哪裡結帳？", "audio": "/audio/shopping/shopping-013.mp3" },
+    "replies": [
+      { "en": "At the counter over there.", "zh": "在那邊的櫃台。", "audio": "/audio/shopping/shopping-013-r1.mp3" }
+    ],
+    "tags": ["結帳", "櫃台", "pay", "收銀"]
+  },
+  {
+    "id": "shopping-014",
+    "scenario": "shopping",
+    "main": { "en": "Can I pay by credit card?", "zh": "可以刷信用卡嗎？", "audio": "/audio/shopping/shopping-014.mp3" },
+    "replies": [
+      { "en": "Yes, of course.", "zh": "可以，當然。", "audio": "/audio/shopping/shopping-014-r1.mp3" },
+      { "en": "Sorry, we only take cash.", "zh": "抱歉，我們只收現金。", "audio": "/audio/shopping/shopping-014-r2.mp3" }
+    ],
+    "tags": ["刷卡", "信用卡", "credit card", "付款"]
+  },
+  {
+    "id": "shopping-015",
+    "scenario": "shopping",
+    "main": { "en": "Can I pay with my phone?", "zh": "可以用手機支付嗎？", "audio": "/audio/shopping/shopping-015.mp3" },
+    "replies": [
+      { "en": "Yes, just tap here.", "zh": "可以，在這裡感應就好。", "audio": "/audio/shopping/shopping-015-r1.mp3" }
+    ],
+    "tags": ["行動支付", "手機支付", "mobile pay", "感應"]
+  },
+  {
+    "id": "shopping-016",
+    "scenario": "shopping",
+    "main": { "en": "Could I have a receipt, please?", "zh": "可以給我收據嗎？", "audio": "/audio/shopping/shopping-016.mp3" },
+    "replies": [
+      { "en": "Here you go.", "zh": "給您。", "audio": "/audio/shopping/shopping-016-r1.mp3" }
+    ],
+    "tags": ["收據", "發票", "receipt"]
+  },
+  {
+    "id": "shopping-017",
+    "scenario": "shopping",
+    "main": { "en": "Could you gift wrap it, please?", "zh": "可以幫我包裝成禮物嗎？", "audio": "/audio/shopping/shopping-017.mp3" },
+    "replies": [
+      { "en": "Of course, no extra charge.", "zh": "當然，不另外收費。", "audio": "/audio/shopping/shopping-017-r1.mp3" }
+    ],
+    "tags": ["包裝", "禮物", "gift wrap"]
+  },
+  {
+    "id": "shopping-018",
+    "scenario": "shopping",
+    "main": { "en": "Can I get a bag, please?", "zh": "可以給我一個袋子嗎？", "audio": "/audio/shopping/shopping-018.mp3" },
+    "replies": [
+      { "en": "Sure, that's ten cents.", "zh": "好的，袋子要十分錢。", "audio": "/audio/shopping/shopping-018-r1.mp3" }
+    ],
+    "tags": ["袋子", "購物袋", "bag"]
+  },
+  {
+    "id": "shopping-019",
+    "scenario": "shopping",
+    "main": { "en": "Can I get a tax refund for this?", "zh": "這個可以退稅嗎？", "audio": "/audio/shopping/shopping-019.mp3" },
+    "replies": [
+      { "en": "Yes, please show your passport.", "zh": "可以，請出示您的護照。", "audio": "/audio/shopping/shopping-019-r1.mp3" }
+    ],
+    "tags": ["退稅", "tax refund", "護照"]
+  },
+  {
+    "id": "shopping-020",
+    "scenario": "shopping",
+    "main": { "en": "I think you gave me the wrong change.", "zh": "我覺得你找錯錢了。", "audio": "/audio/shopping/shopping-020.mp3" },
+    "replies": [
+      { "en": "Let me count it again, sorry.", "zh": "我再算一次，抱歉。", "audio": "/audio/shopping/shopping-020-r1.mp3" }
+    ],
+    "tags": ["找錯錢", "找零", "wrong change"]
+  },
+  {
+    "id": "shopping-021",
+    "scenario": "shopping",
+    "main": { "en": "Can I return this? I have the receipt.", "zh": "這個可以退貨嗎？我有收據。", "audio": "/audio/shopping/shopping-021.mp3" },
+    "replies": [
+      { "en": "Sure, would you like a refund or an exchange?", "zh": "可以，您要退款還是換貨？", "audio": "/audio/shopping/shopping-021-r1.mp3" }
+    ],
+    "tags": ["退貨", "return", "退款", "收據"]
+  },
+  {
+    "id": "shopping-022",
+    "scenario": "shopping",
+    "main": { "en": "I'd like to exchange this for a different size.", "zh": "我想換成不同的尺寸。", "audio": "/audio/shopping/shopping-022.mp3" },
+    "replies": [
+      { "en": "No problem, which size would you like?", "zh": "沒問題，您要哪個尺寸？", "audio": "/audio/shopping/shopping-022-r1.mp3" }
+    ],
+    "tags": ["換貨", "換尺寸", "exchange"]
+  },
+  {
+    "id": "shopping-023",
+    "scenario": "shopping",
+    "main": { "en": "What time do you close?", "zh": "你們幾點關門？", "audio": "/audio/shopping/shopping-023.mp3" },
+    "replies": [
+      { "en": "We close at nine.", "zh": "我們九點關。", "audio": "/audio/shopping/shopping-023-r1.mp3" }
+    ],
+    "tags": ["營業時間", "關門", "close"]
+  },
+  {
+    "id": "shopping-024",
+    "scenario": "shopping",
+    "main": { "en": "Do you ship internationally?", "zh": "你們可以寄到國外嗎？", "audio": "/audio/shopping/shopping-024.mp3" },
+    "replies": [
+      { "en": "Yes, we can ship it to your country.", "zh": "可以，我們能寄到您的國家。", "audio": "/audio/shopping/shopping-024-r1.mp3" }
+    ],
+    "tags": ["寄送", "國際", "ship", "宅配"]
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "id": "hotel-001",
+    "scenario": "hotel",
+    "main": { "en": "Hi, I have a reservation under the name Lin.", "zh": "你好，我有訂房，名字是 Lin。", "audio": "/audio/hotel/hotel-001.mp3" },
+    "replies": [
+      { "en": "Welcome. May I see your passport, please?", "zh": "歡迎光臨，可以給我看您的護照嗎？", "audio": "/audio/hotel/hotel-001-r1.mp3" }
+    ],
+    "tags": ["入住", "訂房", "check-in", "reservation"]
+  },
+  {
+    "id": "hotel-002",
+    "scenario": "hotel",
+    "main": { "en": "I'd like to check in, please.", "zh": "我想辦理入住。", "audio": "/audio/hotel/hotel-002.mp3" },
+    "replies": [
+      { "en": "Of course. How many nights will you be staying?", "zh": "好的，請問您要住幾晚？", "audio": "/audio/hotel/hotel-002-r1.mp3" }
+    ],
+    "tags": ["入住", "check-in"]
+  },
+  {
+    "id": "hotel-003",
+    "scenario": "hotel",
+    "main": { "en": "Can I check in early? My room isn't ready yet?", "zh": "我可以提早入住嗎？還是房間還沒好？", "audio": "/audio/hotel/hotel-003.mp3" },
+    "replies": [
+      { "en": "Check-in is at 3 p.m., but you can leave your bags with us.", "zh": "入住時間是下午三點，但您可以先把行李寄放在我們這。", "audio": "/audio/hotel/hotel-003-r1.mp3" }
+    ],
+    "tags": ["提早入住", "early check-in", "寄放行李"]
+  },
+  {
+    "id": "hotel-004",
+    "scenario": "hotel",
+    "main": { "en": "Could I have a room on a higher floor?", "zh": "可以給我高樓層的房間嗎？", "audio": "/audio/hotel/hotel-004.mp3" },
+    "replies": [
+      { "en": "Sure, I can put you on the 12th floor.", "zh": "沒問題，我幫您安排在 12 樓。", "audio": "/audio/hotel/hotel-004-r1.mp3" }
+    ],
+    "tags": ["樓層", "房間", "high floor"]
+  },
+  {
+    "id": "hotel-005",
+    "scenario": "hotel",
+    "main": { "en": "I'd prefer a quiet room, away from the elevator.", "zh": "我想要安靜一點、離電梯遠一點的房間。", "audio": "/audio/hotel/hotel-005.mp3" },
+    "replies": [
+      { "en": "No problem, I'll arrange that for you.", "zh": "沒問題，我幫您安排。", "audio": "/audio/hotel/hotel-005-r1.mp3" }
+    ],
+    "tags": ["安靜", "房間", "quiet"]
+  },
+  {
+    "id": "hotel-006",
+    "scenario": "hotel",
+    "main": { "en": "Is breakfast included?", "zh": "有附早餐嗎？", "audio": "/audio/hotel/hotel-006.mp3" },
+    "replies": [
+      { "en": "Yes, it's served from 7 to 10 on the second floor.", "zh": "有的，早餐在二樓，供應時間是 7 點到 10 點。", "audio": "/audio/hotel/hotel-006-r1.mp3" },
+      { "en": "Breakfast is extra, twenty dollars per person.", "zh": "早餐要另外付費，每人 20 元。", "audio": "/audio/hotel/hotel-006-r2.mp3" }
+    ],
+    "tags": ["早餐", "breakfast"]
+  },
+  {
+    "id": "hotel-007",
+    "scenario": "hotel",
+    "main": { "en": "What's the Wi-Fi password?", "zh": "Wi-Fi 密碼是什麼？", "audio": "/audio/hotel/hotel-007.mp3" },
+    "replies": [
+      { "en": "It's printed on the back of your key card.", "zh": "印在您房卡的背面。", "audio": "/audio/hotel/hotel-007-r1.mp3" }
+    ],
+    "tags": ["wifi", "密碼", "網路"]
+  },
+  {
+    "id": "hotel-008",
+    "scenario": "hotel",
+    "main": { "en": "What time is checkout?", "zh": "退房時間是幾點？", "audio": "/audio/hotel/hotel-008.mp3" },
+    "replies": [
+      { "en": "Checkout is at 11 a.m.", "zh": "退房時間是上午 11 點。", "audio": "/audio/hotel/hotel-008-r1.mp3" }
+    ],
+    "tags": ["退房", "checkout", "時間"]
+  },
+  {
+    "id": "hotel-009",
+    "scenario": "hotel",
+    "main": { "en": "Could I get a late checkout, around 2 p.m.?", "zh": "我可以延後退房嗎，大概下午兩點？", "audio": "/audio/hotel/hotel-009.mp3" },
+    "replies": [
+      { "en": "Sure, that's fine.", "zh": "沒問題，可以的。", "audio": "/audio/hotel/hotel-009-r1.mp3" },
+      { "en": "There may be a small extra charge for that.", "zh": "這可能會酌收一點費用。", "audio": "/audio/hotel/hotel-009-r2.mp3" }
+    ],
+    "tags": ["延後退房", "late checkout"]
+  },
+  {
+    "id": "hotel-010",
+    "scenario": "hotel",
+    "main": { "en": "Do you have parking?", "zh": "請問有停車場嗎？", "audio": "/audio/hotel/hotel-010.mp3" },
+    "replies": [
+      { "en": "Yes, there's a garage in the basement.", "zh": "有的，地下室有停車場。", "audio": "/audio/hotel/hotel-010-r1.mp3" }
+    ],
+    "tags": ["停車", "parking"]
+  },
+  {
+    "id": "hotel-011",
+    "scenario": "hotel",
+    "main": { "en": "Could you keep my luggage until the afternoon?", "zh": "可以幫我把行李寄放到下午嗎？", "audio": "/audio/hotel/hotel-011.mp3" },
+    "replies": [
+      { "en": "Of course. Here's your tag.", "zh": "當然可以，這是您的行李牌。", "audio": "/audio/hotel/hotel-011-r1.mp3" }
+    ],
+    "tags": ["寄放行李", "luggage", "行李"]
+  },
+  {
+    "id": "hotel-012",
+    "scenario": "hotel",
+    "main": { "en": "Could I have a wake-up call at 6 a.m.?", "zh": "可以幫我設早上六點的叫醒服務嗎？", "audio": "/audio/hotel/hotel-012.mp3" },
+    "replies": [
+      { "en": "Certainly, six a.m. It's all set.", "zh": "好的，早上六點，已經設定好了。", "audio": "/audio/hotel/hotel-012-r1.mp3" }
+    ],
+    "tags": ["叫醒", "wake-up call", "morning call"]
+  },
+  {
+    "id": "hotel-013",
+    "scenario": "hotel",
+    "main": { "en": "Could you call a taxi for me?", "zh": "可以幫我叫一台計程車嗎？", "audio": "/audio/hotel/hotel-013.mp3" },
+    "replies": [
+      { "en": "Sure, it'll be here in about five minutes.", "zh": "沒問題，大約五分鐘後到。", "audio": "/audio/hotel/hotel-013-r1.mp3" }
+    ],
+    "tags": ["計程車", "taxi", "叫車"]
+  },
+  {
+    "id": "hotel-014",
+    "scenario": "hotel",
+    "main": { "en": "Could I have some extra towels, please?", "zh": "可以多給我幾條毛巾嗎？", "audio": "/audio/hotel/hotel-014.mp3" },
+    "replies": [
+      { "en": "Of course, I'll send them up right away.", "zh": "當然，我馬上請人送上去。", "audio": "/audio/hotel/hotel-014-r1.mp3" }
+    ],
+    "tags": ["毛巾", "towels", "備品"]
+  },
+  {
+    "id": "hotel-015",
+    "scenario": "hotel",
+    "main": { "en": "The air conditioning isn't working.", "zh": "冷氣壞了，沒有在運作。", "audio": "/audio/hotel/hotel-015.mp3" },
+    "replies": [
+      { "en": "I'm sorry. I'll send someone to check it now.", "zh": "很抱歉，我馬上派人去檢查。", "audio": "/audio/hotel/hotel-015-r1.mp3" }
+    ],
+    "tags": ["冷氣", "故障", "air conditioning", "問題"]
+  },
+  {
+    "id": "hotel-016",
+    "scenario": "hotel",
+    "main": { "en": "There's no hot water in my room.", "zh": "我房間沒有熱水。", "audio": "/audio/hotel/hotel-016.mp3" },
+    "replies": [
+      { "en": "I apologize. We'll fix it as soon as possible.", "zh": "很抱歉，我們會盡快處理。", "audio": "/audio/hotel/hotel-016-r1.mp3" }
+    ],
+    "tags": ["熱水", "hot water", "問題"]
+  },
+  {
+    "id": "hotel-017",
+    "scenario": "hotel",
+    "main": { "en": "My key card isn't working.", "zh": "我的房卡刷不開門。", "audio": "/audio/hotel/hotel-017.mp3" },
+    "replies": [
+      { "en": "Let me reactivate it for you.", "zh": "我幫您重新設定。", "audio": "/audio/hotel/hotel-017-r1.mp3" }
+    ],
+    "tags": ["房卡", "key card", "門", "問題"]
+  },
+  {
+    "id": "hotel-018",
+    "scenario": "hotel",
+    "main": { "en": "The room next door is very noisy. Could you help?", "zh": "隔壁房間很吵，可以幫忙處理嗎？", "audio": "/audio/hotel/hotel-018.mp3" },
+    "replies": [
+      { "en": "I'm sorry, I'll take care of it right away.", "zh": "很抱歉，我馬上處理。", "audio": "/audio/hotel/hotel-018-r1.mp3" }
+    ],
+    "tags": ["吵", "noisy", "隔壁", "問題"]
+  },
+  {
+    "id": "hotel-019",
+    "scenario": "hotel",
+    "main": { "en": "Could you clean my room, please?", "zh": "可以幫我打掃房間嗎？", "audio": "/audio/hotel/hotel-019.mp3" },
+    "replies": [
+      { "en": "Sure, housekeeping will come by shortly.", "zh": "好的，房務人員稍後就過去。", "audio": "/audio/hotel/hotel-019-r1.mp3" }
+    ],
+    "tags": ["打掃", "房務", "housekeeping"]
+  },
+  {
+    "id": "hotel-020",
+    "scenario": "hotel",
+    "main": { "en": "Do you have a laundry service?", "zh": "有洗衣服務嗎？", "audio": "/audio/hotel/hotel-020.mp3" },
+    "replies": [
+      { "en": "Yes, just leave it in the bag in your closet.", "zh": "有的，放進衣櫃裡的洗衣袋就可以了。", "audio": "/audio/hotel/hotel-020-r1.mp3" }
+    ],
+    "tags": ["洗衣", "laundry"]
+  },
+  {
+    "id": "hotel-021",
+    "scenario": "hotel",
+    "main": { "en": "Can I get an extra night? I'd like to stay one more day.", "zh": "我可以多住一晚嗎？想再多待一天。", "audio": "/audio/hotel/hotel-021.mp3" },
+    "replies": [
+      { "en": "Let me check availability for you.", "zh": "我幫您查一下還有沒有空房。", "audio": "/audio/hotel/hotel-021-r1.mp3" }
+    ],
+    "tags": ["續住", "多住", "extra night"]
+  },
+  {
+    "id": "hotel-022",
+    "scenario": "hotel",
+    "main": { "en": "How do I get to the city center from here?", "zh": "從這裡要怎麼去市中心？", "audio": "/audio/hotel/hotel-022.mp3" },
+    "replies": [
+      { "en": "The subway is a five-minute walk, exit and turn left.", "zh": "地鐵站走路五分鐘，出門左轉就到。", "audio": "/audio/hotel/hotel-022-r1.mp3" }
+    ],
+    "tags": ["市中心", "交通", "directions"]
+  },
+  {
+    "id": "hotel-023",
+    "scenario": "hotel",
+    "main": { "en": "I'd like to check out, please.", "zh": "我要退房。", "audio": "/audio/hotel/hotel-023.mp3" },
+    "replies": [
+      { "en": "Sure. How was your stay?", "zh": "好的，這次住得還滿意嗎？", "audio": "/audio/hotel/hotel-023-r1.mp3" }
+    ],
+    "tags": ["退房", "checkout"]
+  },
+  {
+    "id": "hotel-024",
+    "scenario": "hotel",
+    "main": { "en": "There seems to be a mistake on my bill.", "zh": "我的帳單好像有錯。", "audio": "/audio/hotel/hotel-024.mp3" },
+    "replies": [
+      { "en": "Let me check that for you right away.", "zh": "我馬上幫您確認。", "audio": "/audio/hotel/hotel-024-r1.mp3" }
+    ],
+    "tags": ["帳單", "bill", "退房", "結帳"]
+  }
+]

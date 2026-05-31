@@ -1,0 +1,221 @@
+[
+  {
+    "id": "restaurant-001",
+    "scenario": "restaurant",
+    "main": { "en": "Do you have a table for two?", "zh": "請問有兩位的位子嗎？", "audio": "/audio/restaurant/restaurant-001.mp3" },
+    "replies": [
+      { "en": "Yes, right this way.", "zh": "有的，這邊請。", "audio": "/audio/restaurant/restaurant-001-r1.mp3" },
+      { "en": "It'll be about a ten-minute wait.", "zh": "大約要等十分鐘。", "audio": "/audio/restaurant/restaurant-001-r2.mp3" }
+    ],
+    "tags": ["訂位", "位子", "table", "幾位"]
+  },
+  {
+    "id": "restaurant-002",
+    "scenario": "restaurant",
+    "main": { "en": "I have a reservation under the name Lin.", "zh": "我有訂位，名字是 Lin。", "audio": "/audio/restaurant/restaurant-002.mp3" },
+    "replies": [
+      { "en": "Welcome. Your table is ready.", "zh": "歡迎光臨，您的桌位已經準備好了。", "audio": "/audio/restaurant/restaurant-002-r1.mp3" }
+    ],
+    "tags": ["訂位", "reservation"]
+  },
+  {
+    "id": "restaurant-003",
+    "scenario": "restaurant",
+    "main": { "en": "Could we sit by the window?", "zh": "我們可以坐靠窗的位子嗎？", "audio": "/audio/restaurant/restaurant-003.mp3" },
+    "replies": [
+      { "en": "Of course, follow me.", "zh": "當然，請跟我來。", "audio": "/audio/restaurant/restaurant-003-r1.mp3" }
+    ],
+    "tags": ["靠窗", "位子", "window"]
+  },
+  {
+    "id": "restaurant-004",
+    "scenario": "restaurant",
+    "main": { "en": "Could I see the menu, please?", "zh": "可以給我看菜單嗎？", "audio": "/audio/restaurant/restaurant-004.mp3" },
+    "replies": [
+      { "en": "Here you go. Can I get you something to drink first?", "zh": "請看，要先幫您點飲料嗎？", "audio": "/audio/restaurant/restaurant-004-r1.mp3" }
+    ],
+    "tags": ["菜單", "menu"]
+  },
+  {
+    "id": "restaurant-005",
+    "scenario": "restaurant",
+    "main": { "en": "What do you recommend?", "zh": "你推薦什麼？", "audio": "/audio/restaurant/restaurant-005.mp3" },
+    "replies": [
+      { "en": "Our grilled salmon is very popular.", "zh": "我們的烤鮭魚很受歡迎。", "audio": "/audio/restaurant/restaurant-005-r1.mp3" }
+    ],
+    "tags": ["推薦", "招牌", "recommend"]
+  },
+  {
+    "id": "restaurant-006",
+    "scenario": "restaurant",
+    "main": { "en": "What's the most popular dish here?", "zh": "這裡最受歡迎的是哪一道？", "audio": "/audio/restaurant/restaurant-006.mp3" },
+    "replies": [
+      { "en": "Most people order the steak.", "zh": "大部分客人都點牛排。", "audio": "/audio/restaurant/restaurant-006-r1.mp3" }
+    ],
+    "tags": ["招牌", "熱門", "popular"]
+  },
+  {
+    "id": "restaurant-007",
+    "scenario": "restaurant",
+    "main": { "en": "I'll have this one, please.", "zh": "我要點這個。", "audio": "/audio/restaurant/restaurant-007.mp3" },
+    "replies": [
+      { "en": "Good choice. Anything else?", "zh": "好選擇，還需要別的嗎？", "audio": "/audio/restaurant/restaurant-007-r1.mp3" }
+    ],
+    "tags": ["點餐", "order", "這個"]
+  },
+  {
+    "id": "restaurant-008",
+    "scenario": "restaurant",
+    "main": { "en": "We're ready to order.", "zh": "我們可以點餐了。", "audio": "/audio/restaurant/restaurant-008.mp3" },
+    "replies": [
+      { "en": "Great, what would you like?", "zh": "好的，請問要點什麼？", "audio": "/audio/restaurant/restaurant-008-r1.mp3" }
+    ],
+    "tags": ["點餐", "order"]
+  },
+  {
+    "id": "restaurant-009",
+    "scenario": "restaurant",
+    "main": { "en": "Could we have a few more minutes?", "zh": "可以再給我們幾分鐘嗎？", "audio": "/audio/restaurant/restaurant-009.mp3" },
+    "replies": [
+      { "en": "Of course, take your time.", "zh": "當然，您慢慢來。", "audio": "/audio/restaurant/restaurant-009-r1.mp3" }
+    ],
+    "tags": ["再等一下", "考慮", "more time"]
+  },
+  {
+    "id": "restaurant-010",
+    "scenario": "restaurant",
+    "main": { "en": "What's in this dish?", "zh": "這道菜裡面有什麼？", "audio": "/audio/restaurant/restaurant-010.mp3" },
+    "replies": [
+      { "en": "It's chicken with vegetables in a cream sauce.", "zh": "是雞肉配蔬菜，淋上奶油醬。", "audio": "/audio/restaurant/restaurant-010-r1.mp3" }
+    ],
+    "tags": ["成分", "食材", "ingredients"]
+  },
+  {
+    "id": "restaurant-011",
+    "scenario": "restaurant",
+    "main": { "en": "I'm allergic to nuts. Does this contain any?", "zh": "我對堅果過敏，這道有嗎？", "audio": "/audio/restaurant/restaurant-011.mp3" },
+    "replies": [
+      { "en": "Let me check with the kitchen for you.", "zh": "我幫您跟廚房確認一下。", "audio": "/audio/restaurant/restaurant-011-r1.mp3" }
+    ],
+    "tags": ["過敏", "堅果", "allergic", "allergy"]
+  },
+  {
+    "id": "restaurant-012",
+    "scenario": "restaurant",
+    "main": { "en": "Do you have any vegetarian options?", "zh": "有素食的選擇嗎？", "audio": "/audio/restaurant/restaurant-012.mp3" },
+    "replies": [
+      { "en": "Yes, these dishes are all vegetarian.", "zh": "有的，這幾道都是素食。", "audio": "/audio/restaurant/restaurant-012-r1.mp3" }
+    ],
+    "tags": ["素食", "vegetarian", "蔬食"]
+  },
+  {
+    "id": "restaurant-013",
+    "scenario": "restaurant",
+    "main": { "en": "Not too spicy, please.", "zh": "請不要太辣。", "audio": "/audio/restaurant/restaurant-013.mp3" },
+    "replies": [
+      { "en": "Sure, I'll let the kitchen know.", "zh": "好的，我會跟廚房說。", "audio": "/audio/restaurant/restaurant-013-r1.mp3" }
+    ],
+    "tags": ["辣", "spicy", "口味"]
+  },
+  {
+    "id": "restaurant-014",
+    "scenario": "restaurant",
+    "main": { "en": "How would you like your steak?", "zh": "（對方問）您的牛排要幾分熟？", "audio": "/audio/restaurant/restaurant-014.mp3" },
+    "replies": [
+      { "en": "Medium, please.", "zh": "五分熟，謝謝。", "audio": "/audio/restaurant/restaurant-014-r1.mp3" },
+      { "en": "Well done, please.", "zh": "全熟，謝謝。", "audio": "/audio/restaurant/restaurant-014-r2.mp3" }
+    ],
+    "tags": ["牛排", "幾分熟", "steak", "medium"]
+  },
+  {
+    "id": "restaurant-015",
+    "scenario": "restaurant",
+    "main": { "en": "Could I have a glass of water, please?", "zh": "可以給我一杯水嗎？", "audio": "/audio/restaurant/restaurant-015.mp3" },
+    "replies": [
+      { "en": "Sure, still or sparkling?", "zh": "好的，要無氣泡還是氣泡水？", "audio": "/audio/restaurant/restaurant-015-r1.mp3" }
+    ],
+    "tags": ["水", "飲料", "water"]
+  },
+  {
+    "id": "restaurant-016",
+    "scenario": "restaurant",
+    "main": { "en": "What drinks do you have?", "zh": "你們有什麼飲料？", "audio": "/audio/restaurant/restaurant-016.mp3" },
+    "replies": [
+      { "en": "We have soda, juice, beer, and wine.", "zh": "我們有汽水、果汁、啤酒和紅白酒。", "audio": "/audio/restaurant/restaurant-016-r1.mp3" }
+    ],
+    "tags": ["飲料", "drinks"]
+  },
+  {
+    "id": "restaurant-017",
+    "scenario": "restaurant",
+    "main": { "en": "Could I get this to go?", "zh": "這個可以外帶嗎？", "audio": "/audio/restaurant/restaurant-017.mp3" },
+    "replies": [
+      { "en": "Of course, I'll box it up for you.", "zh": "當然，我幫您打包。", "audio": "/audio/restaurant/restaurant-017-r1.mp3" }
+    ],
+    "tags": ["外帶", "打包", "to go", "takeout"]
+  },
+  {
+    "id": "restaurant-018",
+    "scenario": "restaurant",
+    "main": { "en": "Excuse me, this isn't what I ordered.", "zh": "不好意思，這不是我點的。", "audio": "/audio/restaurant/restaurant-018.mp3" },
+    "replies": [
+      { "en": "I'm so sorry, I'll fix that right away.", "zh": "非常抱歉，我馬上幫您換。", "audio": "/audio/restaurant/restaurant-018-r1.mp3" }
+    ],
+    "tags": ["上錯", "問題", "wrong order"]
+  },
+  {
+    "id": "restaurant-019",
+    "scenario": "restaurant",
+    "main": { "en": "Could you heat this up? It's cold.", "zh": "這個可以幫我加熱嗎？已經冷了。", "audio": "/audio/restaurant/restaurant-019.mp3" },
+    "replies": [
+      { "en": "Of course, my apologies.", "zh": "當然，很抱歉。", "audio": "/audio/restaurant/restaurant-019-r1.mp3" }
+    ],
+    "tags": ["冷掉", "加熱", "問題", "cold"]
+  },
+  {
+    "id": "restaurant-020",
+    "scenario": "restaurant",
+    "main": { "en": "Could I have some napkins, please?", "zh": "可以給我一些餐巾紙嗎？", "audio": "/audio/restaurant/restaurant-020.mp3" },
+    "replies": [
+      { "en": "Sure, here you are.", "zh": "好的，給您。", "audio": "/audio/restaurant/restaurant-020-r1.mp3" }
+    ],
+    "tags": ["餐巾", "紙巾", "napkins"]
+  },
+  {
+    "id": "restaurant-021",
+    "scenario": "restaurant",
+    "main": { "en": "Where's the restroom?", "zh": "請問廁所在哪裡？", "audio": "/audio/restaurant/restaurant-021.mp3" },
+    "replies": [
+      { "en": "It's at the back, on the right.", "zh": "在後面，右手邊。", "audio": "/audio/restaurant/restaurant-021-r1.mp3" }
+    ],
+    "tags": ["廁所", "洗手間", "restroom"]
+  },
+  {
+    "id": "restaurant-022",
+    "scenario": "restaurant",
+    "main": { "en": "Could we get the bill, please?", "zh": "可以幫我們結帳嗎？", "audio": "/audio/restaurant/restaurant-022.mp3" },
+    "replies": [
+      { "en": "Of course, I'll bring it right over.", "zh": "好的，我馬上拿過來。", "audio": "/audio/restaurant/restaurant-022-r1.mp3" }
+    ],
+    "tags": ["結帳", "買單", "bill", "check"]
+  },
+  {
+    "id": "restaurant-023",
+    "scenario": "restaurant",
+    "main": { "en": "Can we pay separately?", "zh": "我們可以分開付嗎？", "audio": "/audio/restaurant/restaurant-023.mp3" },
+    "replies": [
+      { "en": "Sure, no problem.", "zh": "可以，沒問題。", "audio": "/audio/restaurant/restaurant-023-r1.mp3" }
+    ],
+    "tags": ["分開付", "各付各的", "split", "separately"]
+  },
+  {
+    "id": "restaurant-024",
+    "scenario": "restaurant",
+    "main": { "en": "Is the tip included?", "zh": "帳單有含小費嗎？", "audio": "/audio/restaurant/restaurant-024.mp3" },
+    "replies": [
+      { "en": "Yes, it's already included.", "zh": "有的，已經包含了。", "audio": "/audio/restaurant/restaurant-024-r1.mp3" },
+      { "en": "No, tipping is up to you.", "zh": "沒有，小費由您自行決定。", "audio": "/audio/restaurant/restaurant-024-r2.mp3" }
+    ],
+    "tags": ["小費", "tip", "服務費"]
+  }
+]

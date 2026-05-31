@@ -1,0 +1,19 @@
+{
+  "name": "旅遊會話通｜出國常用英文",
+  "short_name": "旅遊會話通",
+  "description": "出國旅遊常用英文會話卡：情境分類、播放、搜尋、我的最愛，可離線使用。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "lang": "zh-Hant",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

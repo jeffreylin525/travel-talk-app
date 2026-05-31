@@ -1,0 +1,236 @@
+[
+  {
+    "id": "emergency-001",
+    "scenario": "emergency",
+    "main": { "en": "Help! I need help.", "zh": "救命！我需要幫忙。", "audio": "/audio/emergency/emergency-001.mp3" },
+    "replies": [
+      { "en": "What's wrong? What happened?", "zh": "怎麼了？發生什麼事？", "audio": "/audio/emergency/emergency-001-r1.mp3" }
+    ],
+    "tags": ["救命", "求助", "help", "緊急"]
+  },
+  {
+    "id": "emergency-002",
+    "scenario": "emergency",
+    "main": { "en": "It's an emergency. Please call an ambulance.", "zh": "這是緊急狀況，請幫我叫救護車。", "audio": "/audio/emergency/emergency-002.mp3" },
+    "replies": [
+      { "en": "Okay, stay calm. Help is on the way.", "zh": "好，冷靜，救援馬上來。", "audio": "/audio/emergency/emergency-002-r1.mp3" }
+    ],
+    "tags": ["救護車", "緊急", "ambulance", "911", "119"]
+  },
+  {
+    "id": "emergency-003",
+    "scenario": "emergency",
+    "main": { "en": "Please call the police.", "zh": "請幫我報警。", "audio": "/audio/emergency/emergency-003.mp3" },
+    "replies": [
+      { "en": "I'm calling them now.", "zh": "我現在就打。", "audio": "/audio/emergency/emergency-003-r1.mp3" }
+    ],
+    "tags": ["報警", "警察", "police"]
+  },
+  {
+    "id": "emergency-004",
+    "scenario": "emergency",
+    "main": { "en": "I don't feel well.", "zh": "我覺得不舒服。", "audio": "/audio/emergency/emergency-004.mp3" },
+    "replies": [
+      { "en": "Where does it hurt?", "zh": "哪裡不舒服？", "audio": "/audio/emergency/emergency-004-r1.mp3" }
+    ],
+    "tags": ["不舒服", "生病", "sick", "就醫"]
+  },
+  {
+    "id": "emergency-005",
+    "scenario": "emergency",
+    "main": { "en": "I need to see a doctor.", "zh": "我需要看醫生。", "audio": "/audio/emergency/emergency-005.mp3" },
+    "replies": [
+      { "en": "There's a clinic nearby. I'll take you.", "zh": "附近有診所，我帶您去。", "audio": "/audio/emergency/emergency-005-r1.mp3" }
+    ],
+    "tags": ["看醫生", "doctor", "就醫", "診所"]
+  },
+  {
+    "id": "emergency-006",
+    "scenario": "emergency",
+    "main": { "en": "Where is the nearest hospital?", "zh": "最近的醫院在哪裡？", "audio": "/audio/emergency/emergency-006.mp3" },
+    "replies": [
+      { "en": "It's about five minutes by car.", "zh": "開車大約五分鐘。", "audio": "/audio/emergency/emergency-006-r1.mp3" }
+    ],
+    "tags": ["醫院", "hospital", "最近"]
+  },
+  {
+    "id": "emergency-007",
+    "scenario": "emergency",
+    "main": { "en": "I have a stomachache.", "zh": "我肚子痛。", "audio": "/audio/emergency/emergency-007.mp3" },
+    "replies": [
+      { "en": "Since when have you had it?", "zh": "從什麼時候開始的？", "audio": "/audio/emergency/emergency-007-r1.mp3" }
+    ],
+    "tags": ["肚子痛", "stomachache", "症狀"]
+  },
+  {
+    "id": "emergency-008",
+    "scenario": "emergency",
+    "main": { "en": "I have a fever and a headache.", "zh": "我發燒，還頭痛。", "audio": "/audio/emergency/emergency-008.mp3" },
+    "replies": [
+      { "en": "Let me take your temperature.", "zh": "我幫您量一下體溫。", "audio": "/audio/emergency/emergency-008-r1.mp3" }
+    ],
+    "tags": ["發燒", "頭痛", "fever", "headache", "症狀"]
+  },
+  {
+    "id": "emergency-009",
+    "scenario": "emergency",
+    "main": { "en": "I'm allergic to penicillin.", "zh": "我對盤尼西林過敏。", "audio": "/audio/emergency/emergency-009.mp3" },
+    "replies": [
+      { "en": "Okay, I've noted that down.", "zh": "好的，我記下來了。", "audio": "/audio/emergency/emergency-009-r1.mp3" }
+    ],
+    "tags": ["過敏", "藥物", "allergic", "penicillin", "就醫"]
+  },
+  {
+    "id": "emergency-010",
+    "scenario": "emergency",
+    "main": { "en": "I'm taking this medication. Here it is.", "zh": "我正在吃這個藥，在這裡。", "audio": "/audio/emergency/emergency-010.mp3" },
+    "replies": [
+      { "en": "Thank you. How often do you take it?", "zh": "謝謝，您多久吃一次？", "audio": "/audio/emergency/emergency-010-r1.mp3" }
+    ],
+    "tags": ["藥", "用藥", "medication", "就醫"]
+  },
+  {
+    "id": "emergency-011",
+    "scenario": "emergency",
+    "main": { "en": "Where is the nearest pharmacy?", "zh": "最近的藥局在哪裡？", "audio": "/audio/emergency/emergency-011.mp3" },
+    "replies": [
+      { "en": "There's one just down the street.", "zh": "這條街走下去就有一間。", "audio": "/audio/emergency/emergency-011-r1.mp3" }
+    ],
+    "tags": ["藥局", "pharmacy", "買藥"]
+  },
+  {
+    "id": "emergency-012",
+    "scenario": "emergency",
+    "main": { "en": "Do you have something for a cold?", "zh": "有沒有感冒用的藥？", "audio": "/audio/emergency/emergency-012.mp3" },
+    "replies": [
+      { "en": "Yes, take this twice a day after meals.", "zh": "有，這個一天兩次、飯後吃。", "audio": "/audio/emergency/emergency-012-r1.mp3" }
+    ],
+    "tags": ["感冒藥", "成藥", "cold medicine", "藥局"]
+  },
+  {
+    "id": "emergency-013",
+    "scenario": "emergency",
+    "main": { "en": "I have travel insurance. Here's my card.", "zh": "我有旅遊保險，這是我的保險卡。", "audio": "/audio/emergency/emergency-013.mp3" },
+    "replies": [
+      { "en": "Great, please fill out this form.", "zh": "好的，請填這張表。", "audio": "/audio/emergency/emergency-013-r1.mp3" }
+    ],
+    "tags": ["保險", "旅遊保險", "insurance", "就醫"]
+  },
+  {
+    "id": "emergency-014",
+    "scenario": "emergency",
+    "main": { "en": "I lost my passport.", "zh": "我的護照不見了。", "audio": "/audio/emergency/emergency-014.mp3" },
+    "replies": [
+      { "en": "You'll need to contact your embassy.", "zh": "您需要聯絡您的大使館。", "audio": "/audio/emergency/emergency-014-r1.mp3" }
+    ],
+    "tags": ["護照", "遺失", "lost passport", "大使館"]
+  },
+  {
+    "id": "emergency-015",
+    "scenario": "emergency",
+    "main": { "en": "I lost my wallet. My cards were in it.", "zh": "我的錢包不見了，卡都在裡面。", "audio": "/audio/emergency/emergency-015.mp3" },
+    "replies": [
+      { "en": "You should cancel your cards and report it.", "zh": "您應該停卡並報案。", "audio": "/audio/emergency/emergency-015-r1.mp3" }
+    ],
+    "tags": ["錢包", "遺失", "lost wallet", "停卡"]
+  },
+  {
+    "id": "emergency-016",
+    "scenario": "emergency",
+    "main": { "en": "I can't find my phone. I think I left it in the taxi.", "zh": "我找不到手機，應該是忘在計程車上。", "audio": "/audio/emergency/emergency-016.mp3" },
+    "replies": [
+      { "en": "Do you have the receipt with the taxi number?", "zh": "您有寫著車號的收據嗎？", "audio": "/audio/emergency/emergency-016-r1.mp3" }
+    ],
+    "tags": ["手機", "遺失", "計程車", "lost phone"]
+  },
+  {
+    "id": "emergency-017",
+    "scenario": "emergency",
+    "main": { "en": "My bag was stolen.", "zh": "我的包包被偷了。", "audio": "/audio/emergency/emergency-017.mp3" },
+    "replies": [
+      { "en": "I'm sorry. Let's file a police report.", "zh": "很遺憾，我們來報案。", "audio": "/audio/emergency/emergency-017-r1.mp3" }
+    ],
+    "tags": ["被偷", "竊盜", "stolen", "報案"]
+  },
+  {
+    "id": "emergency-018",
+    "scenario": "emergency",
+    "main": { "en": "I need to file a police report.", "zh": "我需要報案做筆錄。", "audio": "/audio/emergency/emergency-018.mp3" },
+    "replies": [
+      { "en": "Please come this way and fill out this form.", "zh": "請這邊來，填這張表。", "audio": "/audio/emergency/emergency-018-r1.mp3" }
+    ],
+    "tags": ["報案", "筆錄", "police report"]
+  },
+  {
+    "id": "emergency-019",
+    "scenario": "emergency",
+    "main": { "en": "Could I get a copy of the report for my insurance?", "zh": "可以給我一份報案證明給保險用嗎？", "audio": "/audio/emergency/emergency-019.mp3" },
+    "replies": [
+      { "en": "Yes, I'll print one for you.", "zh": "可以，我幫您印一份。", "audio": "/audio/emergency/emergency-019-r1.mp3" }
+    ],
+    "tags": ["報案證明", "保險", "report copy"]
+  },
+  {
+    "id": "emergency-020",
+    "scenario": "emergency",
+    "main": { "en": "Where is the lost and found?", "zh": "失物招領處在哪裡？", "audio": "/audio/emergency/emergency-020.mp3" },
+    "replies": [
+      { "en": "It's near the main entrance.", "zh": "在大門附近。", "audio": "/audio/emergency/emergency-020-r1.mp3" }
+    ],
+    "tags": ["失物招領", "lost and found", "遺失"]
+  },
+  {
+    "id": "emergency-021",
+    "scenario": "emergency",
+    "main": { "en": "I need to call my embassy.", "zh": "我需要打給我的大使館。", "audio": "/audio/emergency/emergency-021.mp3" },
+    "replies": [
+      { "en": "Here's the number. You can use this phone.", "zh": "這是電話號碼，可以用這支電話。", "audio": "/audio/emergency/emergency-021-r1.mp3" }
+    ],
+    "tags": ["大使館", "embassy", "聯絡", "辦事處"]
+  },
+  {
+    "id": "emergency-022",
+    "scenario": "emergency",
+    "main": { "en": "Can I use your phone? It's an emergency.", "zh": "可以借用你的電話嗎？這是緊急狀況。", "audio": "/audio/emergency/emergency-022.mp3" },
+    "replies": [
+      { "en": "Of course, here you go.", "zh": "當然，給您。", "audio": "/audio/emergency/emergency-022-r1.mp3" }
+    ],
+    "tags": ["借電話", "緊急", "phone"]
+  },
+  {
+    "id": "emergency-023",
+    "scenario": "emergency",
+    "main": { "en": "Does anyone here speak Chinese?", "zh": "這裡有人會說中文嗎？", "audio": "/audio/emergency/emergency-023.mp3" },
+    "replies": [
+      { "en": "Let me find someone who can help.", "zh": "我幫您找個能幫忙的人。", "audio": "/audio/emergency/emergency-023-r1.mp3" }
+    ],
+    "tags": ["中文", "翻譯", "Chinese", "語言"]
+  },
+  {
+    "id": "emergency-024",
+    "scenario": "emergency",
+    "main": { "en": "Please contact this person for me.", "zh": "請幫我聯絡這個人。", "audio": "/audio/emergency/emergency-024.mp3" },
+    "replies": [
+      { "en": "Sure, what's the number?", "zh": "好的，電話幾號？", "audio": "/audio/emergency/emergency-024-r1.mp3" }
+    ],
+    "tags": ["聯絡", "緊急聯絡人", "contact"]
+  },
+  {
+    "id": "emergency-025",
+    "scenario": "emergency",
+    "main": { "en": "I'm lost and I don't know where I am.", "zh": "我迷路了，不知道自己在哪裡。", "audio": "/audio/emergency/emergency-025.mp3" },
+    "replies": [
+      { "en": "Don't worry. Let me help you.", "zh": "別擔心，我來幫您。", "audio": "/audio/emergency/emergency-025-r1.mp3" }
+    ],
+    "tags": ["迷路", "lost", "緊急"]
+  },
+  {
+    "id": "emergency-026",
+    "scenario": "emergency",
+    "main": { "en": "Is it safe to walk around here at night?", "zh": "這附近晚上走路安全嗎？", "audio": "/audio/emergency/emergency-026.mp3" },
+    "replies": [
+      { "en": "It's better to take a taxi at night.", "zh": "晚上最好搭計程車。", "audio": "/audio/emergency/emergency-026-r1.mp3" }
+    ],
+    "tags": ["安全", "治安", "safe", "晚上"]
+  }
+]

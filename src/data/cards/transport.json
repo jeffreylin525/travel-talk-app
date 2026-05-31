@@ -1,0 +1,238 @@
+[
+  {
+    "id": "transport-001",
+    "scenario": "transport",
+    "main": { "en": "Could you take me to this address?", "zh": "可以載我到這個地址嗎？", "audio": "/audio/transport/transport-001.mp3" },
+    "replies": [
+      { "en": "Sure, hop in.", "zh": "好的，請上車。", "audio": "/audio/transport/transport-001-r1.mp3" }
+    ],
+    "tags": ["計程車", "taxi", "地址", "address"]
+  },
+  {
+    "id": "transport-002",
+    "scenario": "transport",
+    "main": { "en": "How much is it to the airport?", "zh": "到機場大概多少錢？", "audio": "/audio/transport/transport-002.mp3" },
+    "replies": [
+      { "en": "About thirty dollars.", "zh": "大約三十元。", "audio": "/audio/transport/transport-002-r1.mp3" }
+    ],
+    "tags": ["車資", "費用", "計程車", "fare", "機場"]
+  },
+  {
+    "id": "transport-003",
+    "scenario": "transport",
+    "main": { "en": "Please use the meter.", "zh": "請跳表計費。", "audio": "/audio/transport/transport-003.mp3" },
+    "replies": [
+      { "en": "Of course.", "zh": "當然。", "audio": "/audio/transport/transport-003-r1.mp3" }
+    ],
+    "tags": ["跳表", "計程車", "meter"]
+  },
+  {
+    "id": "transport-004",
+    "scenario": "transport",
+    "main": { "en": "How long will it take?", "zh": "大概要多久？", "audio": "/audio/transport/transport-004.mp3" },
+    "replies": [
+      { "en": "About twenty minutes, depending on traffic.", "zh": "大約二十分鐘，要看路況。", "audio": "/audio/transport/transport-004-r1.mp3" }
+    ],
+    "tags": ["時間", "多久", "how long"]
+  },
+  {
+    "id": "transport-005",
+    "scenario": "transport",
+    "main": { "en": "I'm in a hurry, please.", "zh": "我趕時間，麻煩快一點。", "audio": "/audio/transport/transport-005.mp3" },
+    "replies": [
+      { "en": "I'll do my best.", "zh": "我盡量。", "audio": "/audio/transport/transport-005-r1.mp3" }
+    ],
+    "tags": ["趕時間", "快一點", "hurry"]
+  },
+  {
+    "id": "transport-006",
+    "scenario": "transport",
+    "main": { "en": "Please stop here.", "zh": "請在這裡停。", "audio": "/audio/transport/transport-006.mp3" },
+    "replies": [
+      { "en": "Sure, here we are.", "zh": "好的，到了。", "audio": "/audio/transport/transport-006-r1.mp3" }
+    ],
+    "tags": ["停車", "下車", "stop here"]
+  },
+  {
+    "id": "transport-007",
+    "scenario": "transport",
+    "main": { "en": "Can I pay by card?", "zh": "可以刷卡嗎？", "audio": "/audio/transport/transport-007.mp3" },
+    "replies": [
+      { "en": "Yes, you can.", "zh": "可以的。", "audio": "/audio/transport/transport-007-r1.mp3" },
+      { "en": "Sorry, cash only.", "zh": "抱歉，只收現金。", "audio": "/audio/transport/transport-007-r2.mp3" }
+    ],
+    "tags": ["刷卡", "付款", "card", "現金"]
+  },
+  {
+    "id": "transport-008",
+    "scenario": "transport",
+    "main": { "en": "Keep the change.", "zh": "不用找了。", "audio": "/audio/transport/transport-008.mp3" },
+    "replies": [
+      { "en": "Thank you very much.", "zh": "非常感謝。", "audio": "/audio/transport/transport-008-r1.mp3" }
+    ],
+    "tags": ["找錢", "小費", "keep the change"]
+  },
+  {
+    "id": "transport-009",
+    "scenario": "transport",
+    "main": { "en": "Could I have a receipt, please?", "zh": "可以給我收據嗎？", "audio": "/audio/transport/transport-009.mp3" },
+    "replies": [
+      { "en": "Here you go.", "zh": "給您。", "audio": "/audio/transport/transport-009-r1.mp3" }
+    ],
+    "tags": ["收據", "receipt"]
+  },
+  {
+    "id": "transport-010",
+    "scenario": "transport",
+    "main": { "en": "Where is the nearest subway station?", "zh": "最近的地鐵站在哪裡？", "audio": "/audio/transport/transport-010.mp3" },
+    "replies": [
+      { "en": "Two blocks straight ahead.", "zh": "往前直走兩個路口。", "audio": "/audio/transport/transport-010-r1.mp3" }
+    ],
+    "tags": ["地鐵", "捷運", "車站", "subway", "metro"]
+  },
+  {
+    "id": "transport-011",
+    "scenario": "transport",
+    "main": { "en": "Which line goes to the city center?", "zh": "哪一條線可以到市中心？", "audio": "/audio/transport/transport-011.mp3" },
+    "replies": [
+      { "en": "Take the blue line and get off at Central.", "zh": "搭藍線，在 Central 站下車。", "audio": "/audio/transport/transport-011-r1.mp3" }
+    ],
+    "tags": ["地鐵", "路線", "line", "市中心"]
+  },
+  {
+    "id": "transport-012",
+    "scenario": "transport",
+    "main": { "en": "Where can I buy a ticket?", "zh": "在哪裡買票？", "audio": "/audio/transport/transport-012.mp3" },
+    "replies": [
+      { "en": "At the machine over there.", "zh": "在那邊的售票機。", "audio": "/audio/transport/transport-012-r1.mp3" }
+    ],
+    "tags": ["買票", "車票", "ticket", "售票機"]
+  },
+  {
+    "id": "transport-013",
+    "scenario": "transport",
+    "main": { "en": "Do I need to transfer?", "zh": "我需要轉車嗎？", "audio": "/audio/transport/transport-013.mp3" },
+    "replies": [
+      { "en": "Yes, change to the red line at the next stop.", "zh": "需要，下一站換紅線。", "audio": "/audio/transport/transport-013-r1.mp3" },
+      { "en": "No, it's a direct line.", "zh": "不用，這是直達的。", "audio": "/audio/transport/transport-013-r2.mp3" }
+    ],
+    "tags": ["轉車", "換車", "transfer"]
+  },
+  {
+    "id": "transport-014",
+    "scenario": "transport",
+    "main": { "en": "Which platform is it?", "zh": "在哪個月台？", "audio": "/audio/transport/transport-014.mp3" },
+    "replies": [
+      { "en": "Platform 2, downstairs.", "zh": "2 號月台，在樓下。", "audio": "/audio/transport/transport-014-r1.mp3" }
+    ],
+    "tags": ["月台", "platform"]
+  },
+  {
+    "id": "transport-015",
+    "scenario": "transport",
+    "main": { "en": "Does this train stop at Central Station?", "zh": "這班車有停 Central 站嗎？", "audio": "/audio/transport/transport-015.mp3" },
+    "replies": [
+      { "en": "Yes, it's three stops from here.", "zh": "有，從這裡數過去第三站。", "audio": "/audio/transport/transport-015-r1.mp3" }
+    ],
+    "tags": ["停靠", "車站", "train", "stop"]
+  },
+  {
+    "id": "transport-016",
+    "scenario": "transport",
+    "main": { "en": "Could you tell me when to get off?", "zh": "到站的時候可以提醒我下車嗎？", "audio": "/audio/transport/transport-016.mp3" },
+    "replies": [
+      { "en": "Sure, I'll let you know.", "zh": "好的，我會告訴您。", "audio": "/audio/transport/transport-016-r1.mp3" }
+    ],
+    "tags": ["下車", "提醒", "get off"]
+  },
+  {
+    "id": "transport-017",
+    "scenario": "transport",
+    "main": { "en": "Which bus goes to the museum?", "zh": "哪一班公車可以到博物館？", "audio": "/audio/transport/transport-017.mp3" },
+    "replies": [
+      { "en": "Take the number 7 bus.", "zh": "搭 7 號公車。", "audio": "/audio/transport/transport-017-r1.mp3" }
+    ],
+    "tags": ["公車", "bus", "博物館"]
+  },
+  {
+    "id": "transport-018",
+    "scenario": "transport",
+    "main": { "en": "How often does the bus come?", "zh": "公車多久來一班？", "audio": "/audio/transport/transport-018.mp3" },
+    "replies": [
+      { "en": "Every fifteen minutes or so.", "zh": "大約每十五分鐘一班。", "audio": "/audio/transport/transport-018-r1.mp3" }
+    ],
+    "tags": ["班距", "多久一班", "公車", "how often"]
+  },
+  {
+    "id": "transport-019",
+    "scenario": "transport",
+    "main": { "en": "I'd like to rent a car for three days.", "zh": "我想租車三天。", "audio": "/audio/transport/transport-019.mp3" },
+    "replies": [
+      { "en": "Sure. May I see your driver's license?", "zh": "好的，可以給我看您的駕照嗎？", "audio": "/audio/transport/transport-019-r1.mp3" }
+    ],
+    "tags": ["租車", "rent a car", "駕照"]
+  },
+  {
+    "id": "transport-020",
+    "scenario": "transport",
+    "main": { "en": "Is insurance included?", "zh": "有含保險嗎？", "audio": "/audio/transport/transport-020.mp3" },
+    "replies": [
+      { "en": "Basic insurance is included; full coverage is extra.", "zh": "含基本險，全險要另外加價。", "audio": "/audio/transport/transport-020-r1.mp3" }
+    ],
+    "tags": ["保險", "租車", "insurance"]
+  },
+  {
+    "id": "transport-021",
+    "scenario": "transport",
+    "main": { "en": "Do I return the car with a full tank?", "zh": "還車時要把油加滿嗎？", "audio": "/audio/transport/transport-021.mp3" },
+    "replies": [
+      { "en": "Yes, please return it full.", "zh": "是的，請加滿再還。", "audio": "/audio/transport/transport-021-r1.mp3" }
+    ],
+    "tags": ["還車", "加油", "油箱", "full tank"]
+  },
+  {
+    "id": "transport-022",
+    "scenario": "transport",
+    "main": { "en": "Where do I pick up the car?", "zh": "我要在哪裡取車？", "audio": "/audio/transport/transport-022.mp3" },
+    "replies": [
+      { "en": "In the parking lot, space number 5.", "zh": "在停車場 5 號車位。", "audio": "/audio/transport/transport-022-r1.mp3" }
+    ],
+    "tags": ["取車", "租車", "pick up"]
+  },
+  {
+    "id": "transport-023",
+    "scenario": "transport",
+    "main": { "en": "Where's the nearest gas station?", "zh": "最近的加油站在哪裡？", "audio": "/audio/transport/transport-023.mp3" },
+    "replies": [
+      { "en": "About one kilometer ahead on the right.", "zh": "往前大約一公里，在右手邊。", "audio": "/audio/transport/transport-023-r1.mp3" }
+    ],
+    "tags": ["加油站", "gas station", "租車"]
+  },
+  {
+    "id": "transport-024",
+    "scenario": "transport",
+    "main": { "en": "Is there a toll on this road?", "zh": "這條路有過路費嗎？", "audio": "/audio/transport/transport-024.mp3" },
+    "replies": [
+      { "en": "Yes, there's a toll booth ahead.", "zh": "有，前面有收費站。", "audio": "/audio/transport/transport-024-r1.mp3" }
+    ],
+    "tags": ["過路費", "收費", "toll"]
+  },
+  {
+    "id": "transport-025",
+    "scenario": "transport",
+    "main": { "en": "Where can I park around here?", "zh": "這附近哪裡可以停車？", "audio": "/audio/transport/transport-025.mp3" },
+    "replies": [
+      { "en": "There's a parking garage just around the corner.", "zh": "轉角就有一個停車場。", "audio": "/audio/transport/transport-025-r1.mp3" }
+    ],
+    "tags": ["停車", "park", "停車場"]
+  },
+  {
+    "id": "transport-026",
+    "scenario": "transport",
+    "main": { "en": "Can I rent a charger or use a charging station?", "zh": "可以租充電線或用充電站嗎？", "audio": "/audio/transport/transport-026.mp3" },
+    "replies": [
+      { "en": "Yes, there are charging stations near the entrance.", "zh": "可以，入口附近有充電站。", "audio": "/audio/transport/transport-026-r1.mp3" }
+    ],
+    "tags": ["充電", "電動車", "charging", "租車"]
+  }
+]

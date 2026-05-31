@@ -1,0 +1,202 @@
+[
+  {
+    "id": "directions-001",
+    "scenario": "directions",
+    "main": { "en": "Excuse me, could you help me?", "zh": "不好意思，可以幫我一下嗎？", "audio": "/audio/directions/directions-001.mp3" },
+    "replies": [
+      { "en": "Sure, what do you need?", "zh": "當然，您需要什麼？", "audio": "/audio/directions/directions-001-r1.mp3" }
+    ],
+    "tags": ["求助", "幫忙", "excuse me", "help"]
+  },
+  {
+    "id": "directions-002",
+    "scenario": "directions",
+    "main": { "en": "How do I get to the train station?", "zh": "請問火車站怎麼走？", "audio": "/audio/directions/directions-002.mp3" },
+    "replies": [
+      { "en": "Go straight and turn left at the corner.", "zh": "直走，在轉角左轉。", "audio": "/audio/directions/directions-002-r1.mp3" }
+    ],
+    "tags": ["怎麼走", "火車站", "how to get to"]
+  },
+  {
+    "id": "directions-003",
+    "scenario": "directions",
+    "main": { "en": "Where is the nearest restroom?", "zh": "最近的廁所在哪裡？", "audio": "/audio/directions/directions-003.mp3" },
+    "replies": [
+      { "en": "There's one inside that café.", "zh": "那家咖啡店裡面有一間。", "audio": "/audio/directions/directions-003-r1.mp3" }
+    ],
+    "tags": ["廁所", "洗手間", "restroom", "最近"]
+  },
+  {
+    "id": "directions-004",
+    "scenario": "directions",
+    "main": { "en": "Is there a pharmacy near here?", "zh": "這附近有藥局嗎？", "audio": "/audio/directions/directions-004.mp3" },
+    "replies": [
+      { "en": "Yes, there's one just across the street.", "zh": "有，就在對街。", "audio": "/audio/directions/directions-004-r1.mp3" }
+    ],
+    "tags": ["藥局", "pharmacy", "附近"]
+  },
+  {
+    "id": "directions-005",
+    "scenario": "directions",
+    "main": { "en": "I'm looking for this place. How do I get there?", "zh": "我要找這個地方，怎麼去？", "audio": "/audio/directions/directions-005.mp3" },
+    "replies": [
+      { "en": "It's about a ten-minute walk that way.", "zh": "往那個方向走大概十分鐘。", "audio": "/audio/directions/directions-005-r1.mp3" }
+    ],
+    "tags": ["地點", "怎麼去", "looking for"]
+  },
+  {
+    "id": "directions-006",
+    "scenario": "directions",
+    "main": { "en": "Is it far from here?", "zh": "離這裡很遠嗎？", "audio": "/audio/directions/directions-006.mp3" },
+    "replies": [
+      { "en": "No, it's just a few minutes away.", "zh": "不會，幾分鐘就到。", "audio": "/audio/directions/directions-006-r1.mp3" },
+      { "en": "Yes, it's better to take a taxi.", "zh": "有點遠，搭計程車比較好。", "audio": "/audio/directions/directions-006-r2.mp3" }
+    ],
+    "tags": ["遠", "距離", "far"]
+  },
+  {
+    "id": "directions-007",
+    "scenario": "directions",
+    "main": { "en": "Can I walk there?", "zh": "走路到得了嗎？", "audio": "/audio/directions/directions-007.mp3" },
+    "replies": [
+      { "en": "Yes, it's an easy walk.", "zh": "可以，走路很近。", "audio": "/audio/directions/directions-007-r1.mp3" }
+    ],
+    "tags": ["走路", "walk", "步行"]
+  },
+  {
+    "id": "directions-008",
+    "scenario": "directions",
+    "main": { "en": "How long does it take to walk?", "zh": "走路要多久？", "audio": "/audio/directions/directions-008.mp3" },
+    "replies": [
+      { "en": "About fifteen minutes.", "zh": "大約十五分鐘。", "audio": "/audio/directions/directions-008-r1.mp3" }
+    ],
+    "tags": ["多久", "時間", "how long"]
+  },
+  {
+    "id": "directions-009",
+    "scenario": "directions",
+    "main": { "en": "Which way is the city center?", "zh": "市中心往哪個方向？", "audio": "/audio/directions/directions-009.mp3" },
+    "replies": [
+      { "en": "That way, to your right.", "zh": "那個方向，您的右手邊。", "audio": "/audio/directions/directions-009-r1.mp3" }
+    ],
+    "tags": ["方向", "市中心", "which way"]
+  },
+  {
+    "id": "directions-010",
+    "scenario": "directions",
+    "main": { "en": "Do I turn left or right here?", "zh": "我在這裡要左轉還是右轉？", "audio": "/audio/directions/directions-010.mp3" },
+    "replies": [
+      { "en": "Turn right at the traffic light.", "zh": "在紅綠燈右轉。", "audio": "/audio/directions/directions-010-r1.mp3" }
+    ],
+    "tags": ["左轉", "右轉", "turn", "紅綠燈"]
+  },
+  {
+    "id": "directions-011",
+    "scenario": "directions",
+    "main": { "en": "Is it on this street?", "zh": "在這條街上嗎？", "audio": "/audio/directions/directions-011.mp3" },
+    "replies": [
+      { "en": "Yes, it's on the left, next to the bank.", "zh": "對，在左邊，銀行旁邊。", "audio": "/audio/directions/directions-011-r1.mp3" }
+    ],
+    "tags": ["這條街", "street", "位置"]
+  },
+  {
+    "id": "directions-012",
+    "scenario": "directions",
+    "main": { "en": "How many blocks is it?", "zh": "還要走幾個路口？", "audio": "/audio/directions/directions-012.mp3" },
+    "replies": [
+      { "en": "About two blocks.", "zh": "大約兩個路口。", "audio": "/audio/directions/directions-012-r1.mp3" }
+    ],
+    "tags": ["路口", "街區", "blocks"]
+  },
+  {
+    "id": "directions-013",
+    "scenario": "directions",
+    "main": { "en": "Could you show me on the map?", "zh": "可以在地圖上指給我看嗎？", "audio": "/audio/directions/directions-013.mp3" },
+    "replies": [
+      { "en": "Sure, we're here and you want to go here.", "zh": "好，我們在這裡，您要去這裡。", "audio": "/audio/directions/directions-013-r1.mp3" }
+    ],
+    "tags": ["地圖", "指", "map"]
+  },
+  {
+    "id": "directions-014",
+    "scenario": "directions",
+    "main": { "en": "Could you write it down for me?", "zh": "可以幫我寫下來嗎？", "audio": "/audio/directions/directions-014.mp3" },
+    "replies": [
+      { "en": "Of course, here you go.", "zh": "當然，給您。", "audio": "/audio/directions/directions-014-r1.mp3" }
+    ],
+    "tags": ["寫下來", "write down"]
+  },
+  {
+    "id": "directions-015",
+    "scenario": "directions",
+    "main": { "en": "Is this the right way to the museum?", "zh": "去博物館是走這個方向嗎？", "audio": "/audio/directions/directions-015.mp3" },
+    "replies": [
+      { "en": "Yes, you're going the right way.", "zh": "對，您走對方向了。", "audio": "/audio/directions/directions-015-r1.mp3" },
+      { "en": "No, it's the other direction.", "zh": "不對，是反方向。", "audio": "/audio/directions/directions-015-r2.mp3" }
+    ],
+    "tags": ["方向確認", "right way", "博物館"]
+  },
+  {
+    "id": "directions-016",
+    "scenario": "directions",
+    "main": { "en": "I think I'm lost.", "zh": "我好像迷路了。", "audio": "/audio/directions/directions-016.mp3" },
+    "replies": [
+      { "en": "Where are you trying to go?", "zh": "您要去哪裡呢？", "audio": "/audio/directions/directions-016-r1.mp3" }
+    ],
+    "tags": ["迷路", "lost"]
+  },
+  {
+    "id": "directions-017",
+    "scenario": "directions",
+    "main": { "en": "Where am I on this map?", "zh": "我現在在地圖上的哪裡？", "audio": "/audio/directions/directions-017.mp3" },
+    "replies": [
+      { "en": "You're right here.", "zh": "您就在這裡。", "audio": "/audio/directions/directions-017-r1.mp3" }
+    ],
+    "tags": ["位置", "地圖", "where am I"]
+  },
+  {
+    "id": "directions-018",
+    "scenario": "directions",
+    "main": { "en": "Is there a bus stop nearby?", "zh": "附近有公車站嗎？", "audio": "/audio/directions/directions-018.mp3" },
+    "replies": [
+      { "en": "Yes, just around the corner.", "zh": "有，就在轉角。", "audio": "/audio/directions/directions-018-r1.mp3" }
+    ],
+    "tags": ["公車站", "bus stop", "附近"]
+  },
+  {
+    "id": "directions-019",
+    "scenario": "directions",
+    "main": { "en": "What's the name of this street?", "zh": "這條街叫什麼名字？", "audio": "/audio/directions/directions-019.mp3" },
+    "replies": [
+      { "en": "This is Main Street.", "zh": "這是 Main Street。", "audio": "/audio/directions/directions-019-r1.mp3" }
+    ],
+    "tags": ["街名", "street name"]
+  },
+  {
+    "id": "directions-020",
+    "scenario": "directions",
+    "main": { "en": "Could you speak a little slower, please?", "zh": "可以講慢一點嗎？", "audio": "/audio/directions/directions-020.mp3" },
+    "replies": [
+      { "en": "Sure. Go straight, then turn left.", "zh": "好的，直走，然後左轉。", "audio": "/audio/directions/directions-020-r1.mp3" }
+    ],
+    "tags": ["慢一點", "聽不懂", "slower"]
+  },
+  {
+    "id": "directions-021",
+    "scenario": "directions",
+    "main": { "en": "Sorry, could you repeat that?", "zh": "抱歉，可以再說一次嗎？", "audio": "/audio/directions/directions-021.mp3" },
+    "replies": [
+      { "en": "Of course. It's the second street on the right.", "zh": "當然，是右邊第二條街。", "audio": "/audio/directions/directions-021-r1.mp3" }
+    ],
+    "tags": ["再說一次", "repeat", "聽不清楚"]
+  },
+  {
+    "id": "directions-022",
+    "scenario": "directions",
+    "main": { "en": "Thank you so much for your help.", "zh": "非常感謝你的幫忙。", "audio": "/audio/directions/directions-022.mp3" },
+    "replies": [
+      { "en": "You're welcome. Have a good day!", "zh": "不客氣，祝您有美好的一天！", "audio": "/audio/directions/directions-022-r1.mp3" }
+    ],
+    "tags": ["感謝", "道謝", "thank you"]
+  }
+]

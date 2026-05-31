@@ -1,0 +1,203 @@
+[
+  {
+    "id": "airport-001",
+    "scenario": "airport",
+    "main": { "en": "Where is the check-in counter for this airline?", "zh": "請問這家航空公司的報到櫃台在哪裡？", "audio": "/audio/airport/airport-001.mp3" },
+    "replies": [
+      { "en": "It's at counter 12, just down that way.", "zh": "在 12 號櫃台，往那邊走就到了。", "audio": "/audio/airport/airport-001-r1.mp3" }
+    ],
+    "tags": ["報到", "櫃台", "check-in"]
+  },
+  {
+    "id": "airport-002",
+    "scenario": "airport",
+    "main": { "en": "I'd like to check in for my flight, please.", "zh": "我想辦理登機報到。", "audio": "/audio/airport/airport-002.mp3" },
+    "replies": [
+      { "en": "May I see your passport and ticket?", "zh": "可以給我看您的護照和機票嗎？", "audio": "/audio/airport/airport-002-r1.mp3" }
+    ],
+    "tags": ["報到", "登機"]
+  },
+  {
+    "id": "airport-003",
+    "scenario": "airport",
+    "main": { "en": "Here is my passport and ticket.", "zh": "這是我的護照和機票。", "audio": "/audio/airport/airport-003.mp3" },
+    "replies": [
+      { "en": "Thank you. How many bags are you checking in?", "zh": "謝謝。您要托運幾件行李？", "audio": "/audio/airport/airport-003-r1.mp3" }
+    ],
+    "tags": ["護照", "機票"]
+  },
+  {
+    "id": "airport-004",
+    "scenario": "airport",
+    "main": { "en": "I have two bags to check in.", "zh": "我有兩件行李要托運。", "audio": "/audio/airport/airport-004.mp3" },
+    "replies": [
+      { "en": "Please put them on the scale one at a time.", "zh": "請一件一件放上磅秤。", "audio": "/audio/airport/airport-004-r1.mp3" }
+    ],
+    "tags": ["托運", "行李"]
+  },
+  {
+    "id": "airport-005",
+    "scenario": "airport",
+    "main": { "en": "Could I have an aisle seat, please?", "zh": "可以給我靠走道的位子嗎？", "audio": "/audio/airport/airport-005.mp3" },
+    "replies": [
+      { "en": "Sure, seat 23C. Here's your boarding pass.", "zh": "沒問題，23C，這是您的登機證。", "audio": "/audio/airport/airport-005-r1.mp3" },
+      { "en": "I'm sorry, only window seats are left.", "zh": "抱歉，只剩靠窗的位子了。", "audio": "/audio/airport/airport-005-r2.mp3" }
+    ],
+    "tags": ["座位", "走道", "靠窗", "seat"]
+  },
+  {
+    "id": "airport-006",
+    "scenario": "airport",
+    "main": { "en": "Can I bring this in my carry-on?", "zh": "這個可以放在隨身行李帶上飛機嗎？", "audio": "/audio/airport/airport-006.mp3" },
+    "replies": [
+      { "en": "Yes, but liquids must be under 100 ml.", "zh": "可以，但液體必須少於 100 毫升。", "audio": "/audio/airport/airport-006-r1.mp3" }
+    ],
+    "tags": ["隨身", "液體", "carry-on"]
+  },
+  {
+    "id": "airport-007",
+    "scenario": "airport",
+    "main": { "en": "Where is the gate for this flight?", "zh": "請問這班飛機的登機門在哪裡？", "audio": "/audio/airport/airport-007.mp3" },
+    "replies": [
+      { "en": "Gate 35, on your left after security.", "zh": "35 號門，過了安檢後在您左手邊。", "audio": "/audio/airport/airport-007-r1.mp3" }
+    ],
+    "tags": ["登機門", "gate"]
+  },
+  {
+    "id": "airport-008",
+    "scenario": "airport",
+    "main": { "en": "Is the flight on time?", "zh": "班機準時嗎？", "audio": "/audio/airport/airport-008.mp3" },
+    "replies": [
+      { "en": "It's delayed by about thirty minutes.", "zh": "大約延誤三十分鐘。", "audio": "/audio/airport/airport-008-r1.mp3" },
+      { "en": "Yes, boarding starts on schedule.", "zh": "是的，會準時開始登機。", "audio": "/audio/airport/airport-008-r2.mp3" }
+    ],
+    "tags": ["準時", "延誤", "delay"]
+  },
+  {
+    "id": "airport-009",
+    "scenario": "airport",
+    "main": { "en": "Do I have enough time for my connecting flight?", "zh": "我轉機的時間夠嗎？", "audio": "/audio/airport/airport-009.mp3" },
+    "replies": [
+      { "en": "Yes, you have about two hours.", "zh": "夠的，您還有大約兩個小時。", "audio": "/audio/airport/airport-009-r1.mp3" },
+      { "en": "It's tight. You should hurry to the gate.", "zh": "有點趕，您最好快點去登機門。", "audio": "/audio/airport/airport-009-r2.mp3" }
+    ],
+    "tags": ["轉機", "connection"]
+  },
+  {
+    "id": "airport-010",
+    "scenario": "airport",
+    "main": { "en": "I'm here for sightseeing.", "zh": "我是來觀光旅遊的。", "audio": "/audio/airport/airport-010.mp3" },
+    "replies": [
+      { "en": "How long will you be staying?", "zh": "您會停留多久？", "audio": "/audio/airport/airport-010-r1.mp3" }
+    ],
+    "tags": ["入境", "目的", "觀光", "immigration"]
+  },
+  {
+    "id": "airport-011",
+    "scenario": "airport",
+    "main": { "en": "I'll be staying for seven days.", "zh": "我會停留七天。", "audio": "/audio/airport/airport-011.mp3" },
+    "replies": [
+      { "en": "Where will you be staying?", "zh": "您會住在哪裡？", "audio": "/audio/airport/airport-011-r1.mp3" }
+    ],
+    "tags": ["停留", "天數"]
+  },
+  {
+    "id": "airport-012",
+    "scenario": "airport",
+    "main": { "en": "I'm staying at a hotel in the city center.", "zh": "我住在市中心的一家飯店。", "audio": "/audio/airport/airport-012.mp3" },
+    "replies": [
+      { "en": "Okay. Enjoy your stay.", "zh": "好的，祝您旅途愉快。", "audio": "/audio/airport/airport-012-r1.mp3" }
+    ],
+    "tags": ["住宿", "飯店"]
+  },
+  {
+    "id": "airport-013",
+    "scenario": "airport",
+    "main": { "en": "I have nothing to declare.", "zh": "我沒有要申報的物品。", "audio": "/audio/airport/airport-013.mp3" },
+    "replies": [
+      { "en": "All right, you may go through.", "zh": "好的，您可以通過了。", "audio": "/audio/airport/airport-013-r1.mp3" }
+    ],
+    "tags": ["海關", "申報", "customs", "declare"]
+  },
+  {
+    "id": "airport-014",
+    "scenario": "airport",
+    "main": { "en": "Where is the baggage claim?", "zh": "請問行李提領處在哪裡？", "audio": "/audio/airport/airport-014.mp3" },
+    "replies": [
+      { "en": "Carousel 4. Just follow the signs.", "zh": "4 號轉盤，跟著指標走就到了。", "audio": "/audio/airport/airport-014-r1.mp3" }
+    ],
+    "tags": ["行李", "提領", "baggage"]
+  },
+  {
+    "id": "airport-015",
+    "scenario": "airport",
+    "main": { "en": "My luggage didn't come out. I think it's lost.", "zh": "我的行李沒出來，好像遺失了。", "audio": "/audio/airport/airport-015.mp3" },
+    "replies": [
+      { "en": "Please fill out this form with your flight details.", "zh": "請填寫這張表單，附上您的航班資訊。", "audio": "/audio/airport/airport-015-r1.mp3" }
+    ],
+    "tags": ["行李", "遺失", "lost luggage"]
+  },
+  {
+    "id": "airport-016",
+    "scenario": "airport",
+    "main": { "en": "Where can I exchange some money?", "zh": "請問哪裡可以換錢？", "audio": "/audio/airport/airport-016.mp3" },
+    "replies": [
+      { "en": "There's a currency exchange near the exit.", "zh": "出口附近有一家貨幣兌換處。", "audio": "/audio/airport/airport-016-r1.mp3" }
+    ],
+    "tags": ["換錢", "匯率", "exchange"]
+  },
+  {
+    "id": "airport-017",
+    "scenario": "airport",
+    "main": { "en": "Where can I get a taxi?", "zh": "請問哪裡可以搭計程車？", "audio": "/audio/airport/airport-017.mp3" },
+    "replies": [
+      { "en": "Taxis are outside, exit on your right.", "zh": "計程車在外面，從右邊出口出去。", "audio": "/audio/airport/airport-017-r1.mp3" }
+    ],
+    "tags": ["計程車", "taxi"]
+  },
+  {
+    "id": "airport-018",
+    "scenario": "airport",
+    "main": { "en": "Is there free Wi-Fi at the airport?", "zh": "機場有免費 Wi-Fi 嗎？", "audio": "/audio/airport/airport-018.mp3" },
+    "replies": [
+      { "en": "Yes, connect to the network called Airport-Free.", "zh": "有，連到名稱為 Airport-Free 的網路即可。", "audio": "/audio/airport/airport-018-r1.mp3" }
+    ],
+    "tags": ["wifi", "網路", "上網"]
+  },
+  {
+    "id": "airport-019",
+    "scenario": "airport",
+    "main": { "en": "Could I have an arrival card, please?", "zh": "可以給我一張入境卡嗎？", "audio": "/audio/airport/airport-019.mp3" },
+    "replies": [
+      { "en": "Here you go. Fill it in before the counter.", "zh": "給您，請在櫃台前先填好。", "audio": "/audio/airport/airport-019-r1.mp3" }
+    ],
+    "tags": ["入境卡", "arrival card"]
+  },
+  {
+    "id": "airport-020",
+    "scenario": "airport",
+    "main": { "en": "Excuse me, where is the restroom?", "zh": "不好意思，請問廁所在哪裡？", "audio": "/audio/airport/airport-020.mp3" },
+    "replies": [
+      { "en": "It's just around the corner.", "zh": "就在轉角而已。", "audio": "/audio/airport/airport-020-r1.mp3" }
+    ],
+    "tags": ["廁所", "洗手間", "restroom", "toilet"]
+  },
+  {
+    "id": "airport-021",
+    "scenario": "airport",
+    "main": { "en": "I'm worried I'll miss my flight. Can you help me?", "zh": "我擔心趕不上班機，可以幫我嗎？", "audio": "/audio/airport/airport-021.mp3" },
+    "replies": [
+      { "en": "Go to the transfer desk right away.", "zh": "請馬上到轉機服務台。", "audio": "/audio/airport/airport-021-r1.mp3" }
+    ],
+    "tags": ["趕不上", "轉機", "miss flight"]
+  },
+  {
+    "id": "airport-022",
+    "scenario": "airport",
+    "main": { "en": "Is there somewhere I can charge my phone?", "zh": "請問哪裡可以幫手機充電？", "audio": "/audio/airport/airport-022.mp3" },
+    "replies": [
+      { "en": "There are charging stations near gate 30.", "zh": "30 號門附近有充電站。", "audio": "/audio/airport/airport-022-r1.mp3" }
+    ],
+    "tags": ["充電", "charge", "插座"]
+  }
+]
