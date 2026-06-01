@@ -28,7 +28,7 @@ export const LEARN_CATEGORIES: LearnCategory[] = [
     emoji: "🩺",
     zh: "就醫身體",
     en: "Health & Body",
-    desc: "症狀、身體部位、藥物（即將推出）",
+    desc: "症狀、身體部位、藥物與求助",
     color: "from-red-600 to-rose-700",
   },
   {
@@ -37,7 +37,7 @@ export const LEARN_CATEGORIES: LearnCategory[] = [
     emoji: "🧭",
     zh: "方向位置",
     en: "Directions",
-    desc: "方位、地標、距離（即將推出）",
+    desc: "方位、地標、距離",
     color: "from-teal-500 to-emerald-600",
   },
   {
@@ -46,7 +46,7 @@ export const LEARN_CATEGORIES: LearnCategory[] = [
     emoji: "💰",
     zh: "數字金額",
     en: "Numbers & Money",
-    desc: "數字、價格、付款（即將推出）",
+    desc: "價格、付款、找零、退稅",
     color: "from-amber-500 to-yellow-500",
   },
   {
@@ -55,7 +55,7 @@ export const LEARN_CATEGORIES: LearnCategory[] = [
     emoji: "🕐",
     zh: "時間日期",
     en: "Time & Date",
-    desc: "時間、星期、日期（即將推出）",
+    desc: "時間、星期、日期、營業時間",
     color: "from-sky-500 to-blue-600",
   },
   {
@@ -64,7 +64,7 @@ export const LEARN_CATEGORIES: LearnCategory[] = [
     emoji: "🚉",
     zh: "交通工具",
     en: "Transport",
-    desc: "交通方式、車站設施（即將推出）",
+    desc: "交通方式、車站與機場設施",
     color: "from-cyan-500 to-teal-600",
   },
   // ── 慣用語 ──

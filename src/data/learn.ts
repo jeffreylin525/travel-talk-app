@@ -1,11 +1,21 @@
 import type { LearnItem } from "@/lib/learn-types";
 import frames from "./learn/frames.json";
 import food from "./learn/food.json";
+import medical from "./learn/medical.json";
+import directions from "./learn/directions.json";
+import money from "./learn/money.json";
+import time from "./learn/time.json";
+import transport from "./learn/transport.json";
 
 // 逐類加入：完成新分類後，import 進來並加進下面的陣列即可。
 const ALL_ITEMS: LearnItem[] = [
   ...(frames as LearnItem[]),
   ...(food as LearnItem[]),
+  ...(medical as LearnItem[]),
+  ...(directions as LearnItem[]),
+  ...(money as LearnItem[]),
+  ...(time as LearnItem[]),
+  ...(transport as LearnItem[]),
 ];
 
 export function getAllLearnItems(): LearnItem[] {
