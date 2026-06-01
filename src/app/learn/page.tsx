@@ -21,6 +21,21 @@ export default function LearnHomePage() {
 
       <ReviewBanner />
 
+      {/* 自我測驗入口 */}
+      <Link
+        href="/learn/quiz"
+        className="mb-6 flex items-center gap-3 rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3 shadow-sm transition active:scale-[0.99]"
+      >
+        <span className="text-2xl">📝</span>
+        <span className="min-w-0 flex-1">
+          <span className="block font-bold">自我測驗</span>
+          <span className="block text-xs text-[var(--text-muted)]">
+            中翻英、聽力選擇，檢測學習成果
+          </span>
+        </span>
+        <span className="text-xl text-[var(--text-muted)]">›</span>
+      </Link>
+
       {TYPE_ORDER.map((type) => {
         const cats = LEARN_CATEGORIES.filter((c) => c.type === type);
         if (cats.length === 0) return null;

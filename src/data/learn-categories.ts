@@ -74,7 +74,7 @@ export const LEARN_CATEGORIES: LearnCategory[] = [
     emoji: "💡",
     zh: "旅遊慣用語",
     en: "Useful Phrases",
-    desc: "高頻口語、客套、應對（即將推出）",
+    desc: "高頻口語、客套、應對",
     color: "from-pink-500 to-rose-600",
   },
 ];
