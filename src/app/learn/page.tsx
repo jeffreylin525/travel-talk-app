@@ -5,6 +5,7 @@ import {
 } from "@/data/learn-categories";
 import { countLearnByCategory } from "@/data/learn";
 import type { LearnType } from "@/lib/learn-types";
+import ReviewBanner from "@/components/ReviewBanner";
 
 const TYPE_ORDER: LearnType[] = ["frame", "vocab", "phrase"];
 
@@ -17,6 +18,8 @@ export default function LearnHomePage() {
           打好句型與單字的底，現場就能自己造句、靈活應對。
         </p>
       </header>
+
+      <ReviewBanner />
 
       {TYPE_ORDER.map((type) => {
         const cats = LEARN_CATEGORIES.filter((c) => c.type === type);

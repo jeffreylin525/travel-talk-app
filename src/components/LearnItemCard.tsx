@@ -1,23 +1,23 @@
 "use client";
 
 import type { LearnItem } from "@/lib/learn-types";
-import { useProgress } from "@/hooks/useProgress";
+import { useSrs } from "@/hooks/useSrs";
+import { isMature } from "@/lib/srs";
 import PlayButton from "./PlayButton";
 import SlowPlayButton from "./SlowPlayButton";
-import ProgressControl from "./ProgressControl";
+import SrsControl from "./SrsControl";
 
 // 學習庫卡片：句型／單字／慣用語通用。
 // 句型通常沒有本體發音，靠例句發音；單字本體有發音。
 export default function LearnItemCard({ item }: { item: LearnItem }) {
-  const { getStatus } = useProgress();
-  const status = getStatus(item.id);
+  const { map } = useSrs();
+  const srs = map[item.id];
 
-  const accent =
-    status === "learned"
+  const accent = srs
+    ? isMature(srs)
       ? "border-l-4 border-l-green-500"
-      : status === "review"
-        ? "border-l-4 border-l-amber-500"
-        : "";
+      : "border-l-4 border-l-violet-500"
+    : "";
 
   return (
     <div
@@ -81,7 +81,7 @@ export default function LearnItemCard({ item }: { item: LearnItem }) {
               : (item.examples?.[0] ?? { en: item.en, zh: item.zh })
           }
         />
-        <ProgressControl id={item.id} />
+        <SrsControl id={item.id} />
       </div>
     </div>
   );
