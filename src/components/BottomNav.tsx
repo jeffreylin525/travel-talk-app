@@ -7,6 +7,7 @@ const TABS = [
   { href: "/", label: "首頁", icon: "🏠" },
   { href: "/search", label: "搜尋", icon: "🔍" },
   { href: "/favorites", label: "我的最愛", icon: "⭐" },
+  { href: "/recent", label: "最近", icon: "🕘" },
 ];
 
 export default function BottomNav() {

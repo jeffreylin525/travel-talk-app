@@ -1,6 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import BottomNav from "@/components/BottomNav";
+import SettingsProvider from "@/components/SettingsProvider";
+
+// 在畫面繪製前先套用字體大小，避免閃爍（FOUC）
+const fontScaleScript = `(function(){try{var v=localStorage.getItem("tt:fontscale");if(v==="large"||v==="xl")document.documentElement.dataset.fontscale=v;}catch(e){}})();`;
 
 export const metadata: Metadata = {
   title: "旅遊會話通｜出國常用英文",
@@ -29,6 +33,8 @@ export default function RootLayout({
   return (
     <html lang="zh-Hant">
       <body className="min-h-dvh">
+        <script dangerouslySetInnerHTML={{ __html: fontScaleScript }} />
+        <SettingsProvider />
         <main className="mx-auto w-full max-w-screen-sm pb-24">{children}</main>
         <BottomNav />
       </body>

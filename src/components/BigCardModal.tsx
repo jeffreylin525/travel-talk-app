@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import type { Card } from "@/lib/types";
 import { playLine, stopPlayback } from "@/lib/audio";
 import FavoriteStar from "./FavoriteStar";
+import ProgressControl from "./ProgressControl";
 
 // 面交／放大模式：超大字幕 + 超大播放鍵，
 // 可把手機交給對方（司機、櫃台）看與聽。
@@ -42,10 +43,10 @@ export default function BigCardModal({
 
       {/* 主要內容：交給對方看的大字 */}
       <div className="flex flex-1 flex-col items-center justify-center gap-6 px-6 text-center no-select">
-        <p className="text-2xl font-medium leading-relaxed text-[var(--text-muted)]">
+        <p className="tt-big-zh font-medium leading-relaxed text-[var(--text-muted)]">
           {card.main.zh}
         </p>
-        <p className="text-4xl font-bold leading-snug text-[var(--text)] sm:text-5xl">
+        <p className="tt-big-en font-bold leading-snug text-[var(--text)]">
           {card.main.en}
         </p>
 
@@ -69,6 +70,9 @@ export default function BigCardModal({
             <span className="text-[10px] font-semibold">慢</span>
           </button>
         </div>
+
+        {/* 學習進度標記 */}
+        <ProgressControl id={card.id} />
       </div>
 
       {/* 對方可能的回覆 */}
@@ -89,8 +93,8 @@ export default function BigCardModal({
                   ▶
                 </span>
                 <span className="min-w-0">
-                  <span className="block text-lg font-semibold">{r.en}</span>
-                  <span className="block text-sm text-[var(--text-muted)]">
+                  <span className="tt-big-ren block font-semibold">{r.en}</span>
+                  <span className="tt-big-rzh block text-[var(--text-muted)]">
                     {r.zh}
                   </span>
                 </span>

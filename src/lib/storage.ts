@@ -56,7 +56,11 @@ export function subscribeFavorites(cb: () => void): () => void {
   };
 }
 
-// ---- 最近瀏覽（第二層功能，先建好基礎）----
+export function clearFavorites() {
+  write(FAV_KEY, []);
+}
+
+// ---- 最近瀏覽 ----
 export function getRecent(): string[] {
   return read(RECENT_KEY);
 }
@@ -65,4 +69,19 @@ export function pushRecent(id: string) {
   const recent = read(RECENT_KEY).filter((x) => x !== id);
   recent.unshift(id);
   write(RECENT_KEY, recent.slice(0, RECENT_MAX));
+}
+
+export function clearRecent() {
+  write(RECENT_KEY, []);
+}
+
+export function subscribeRecent(cb: () => void): () => void {
+  if (!isBrowser) return () => {};
+  const handler = () => cb();
+  window.addEventListener(`tt:change:${RECENT_KEY}`, handler);
+  window.addEventListener("storage", handler);
+  return () => {
+    window.removeEventListener(`tt:change:${RECENT_KEY}`, handler);
+    window.removeEventListener("storage", handler);
+  };
 }

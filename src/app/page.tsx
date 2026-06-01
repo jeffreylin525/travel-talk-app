@@ -5,11 +5,20 @@ import { countByScenario } from "@/data/cards";
 export default function HomePage() {
   return (
     <div className="px-4 pt-6">
-      <header className="mb-5">
-        <h1 className="text-2xl font-bold">旅遊會話通</h1>
-        <p className="mt-1 text-sm text-[var(--text-muted)]">
-          出國常用英文，點圖示挑情境，或直接搜尋。
-        </p>
+      <header className="mb-5 flex items-start justify-between">
+        <div>
+          <h1 className="text-2xl font-bold">旅遊會話通</h1>
+          <p className="mt-1 text-sm text-[var(--text-muted)]">
+            出國常用英文，點圖示挑情境，或直接搜尋。
+          </p>
+        </div>
+        <Link
+          href="/settings"
+          aria-label="設定"
+          className="shrink-0 rounded-full p-2 text-2xl"
+        >
+          ⚙️
+        </Link>
       </header>
 
       {/* 搜尋入口 */}

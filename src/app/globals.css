@@ -45,3 +45,44 @@ body {
   user-select: none;
   -webkit-user-select: none;
 }
+
+/* ───── 字體大小調整（第二層）─────
+   以 --tt-scale 統一縮放所有卡片文字，設定存在 localStorage，
+   由 SettingsProvider 在 <html data-fontscale> 套用。 */
+:root {
+  --tt-scale: 1;
+}
+html[data-fontscale="large"] {
+  --tt-scale: 1.18;
+}
+html[data-fontscale="xl"] {
+  --tt-scale: 1.4;
+}
+
+/* 一般卡片文字 */
+.tt-en {
+  font-size: calc(1.125rem * var(--tt-scale));
+}
+.tt-zh {
+  font-size: calc(0.875rem * var(--tt-scale));
+}
+.tt-ren {
+  font-size: calc(0.875rem * var(--tt-scale));
+}
+.tt-rzh {
+  font-size: calc(0.75rem * var(--tt-scale));
+}
+
+/* 放大字幕模式（面交）文字：本身就會隨螢幕寬度放大，再乘上使用者設定 */
+.tt-big-en {
+  font-size: calc(clamp(2rem, 9vw, 3.25rem) * var(--tt-scale));
+}
+.tt-big-zh {
+  font-size: calc(clamp(1.25rem, 5vw, 1.75rem) * var(--tt-scale));
+}
+.tt-big-ren {
+  font-size: calc(1.125rem * var(--tt-scale));
+}
+.tt-big-rzh {
+  font-size: calc(0.875rem * var(--tt-scale));
+}

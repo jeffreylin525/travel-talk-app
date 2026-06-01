@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SCENARIOS, getScenario } from "@/data/scenarios";
 import { getCardsByScenario } from "@/data/cards";
-import ConversationCard from "@/components/ConversationCard";
+import ScenarioCardList from "@/components/ScenarioCardList";
 import type { ScenarioId } from "@/lib/types";
 
 export function generateStaticParams() {
@@ -45,11 +45,7 @@ export default async function ScenarioPage({
           <p className="mt-3">這個情境的內容即將推出。</p>
         </div>
       ) : (
-        <div className="flex flex-col gap-3">
-          {cards.map((card) => (
-            <ConversationCard key={card.id} card={card} />
-          ))}
-        </div>
+        <ScenarioCardList cards={cards} />
       )}
     </div>
   );
