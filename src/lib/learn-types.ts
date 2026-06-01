@@ -1,7 +1,7 @@
 // 學習庫（第三層）共用型別。
 // 三種內容統一用 LearnItem，以 type 區分：句型 / 單字 / 慣用語。
 
-export type LearnType = "frame" | "vocab" | "phrase";
+export type LearnType = "frame" | "vocab" | "phrase" | "sign";
 
 export interface LearnExample {
   en: string;

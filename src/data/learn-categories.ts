@@ -67,6 +67,25 @@ export const LEARN_CATEGORIES: LearnCategory[] = [
     desc: "交通方式、車站與機場設施",
     color: "from-cyan-500 to-teal-600",
   },
+  // ── 標示與須知（看懂、聽懂）──
+  {
+    id: "customs",
+    type: "sign",
+    emoji: "🛃",
+    zh: "出入境通關",
+    en: "Immigration & Customs",
+    desc: "海關、違禁品、申報用語",
+    color: "from-slate-600 to-gray-700",
+  },
+  {
+    id: "signs",
+    type: "sign",
+    emoji: "🪧",
+    zh: "公共標示",
+    en: "Public Signs",
+    desc: "機場車站的指標與告示",
+    color: "from-stone-500 to-zinc-600",
+  },
   // ── 慣用語 ──
   {
     id: "idioms",
@@ -87,5 +106,6 @@ export function getLearnCategory(id: string): LearnCategory | undefined {
 export const LEARN_TYPE_LABELS: Record<string, string> = {
   frame: "句型框架",
   vocab: "主題單字",
+  sign: "標示與須知",
   phrase: "慣用語",
 };

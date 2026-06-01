@@ -7,6 +7,8 @@ import directions from "./learn/directions.json";
 import money from "./learn/money.json";
 import time from "./learn/time.json";
 import transport from "./learn/transport.json";
+import customs from "./learn/customs.json";
+import signs from "./learn/signs.json";
 import idioms from "./learn/idioms.json";
 
 // 逐類加入：完成新分類後，import 進來並加進下面的陣列即可。
@@ -19,6 +21,8 @@ const ALL_ITEMS: LearnItem[] = [
   ...(money as LearnItem[]),
   ...(time as LearnItem[]),
   ...(transport as LearnItem[]),
+  ...(customs as LearnItem[]),
+  ...(signs as LearnItem[]),
   ...(idioms as LearnItem[]),
 ];
 
