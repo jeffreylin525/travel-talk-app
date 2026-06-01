@@ -1,5 +1,6 @@
 import type { LearnItem } from "@/lib/learn-types";
 import frames from "./learn/frames.json";
+import frames2 from "./learn/frames2.json";
 import food from "./learn/food.json";
 import medical from "./learn/medical.json";
 import directions from "./learn/directions.json";
@@ -11,6 +12,7 @@ import idioms from "./learn/idioms.json";
 // 逐類加入：完成新分類後，import 進來並加進下面的陣列即可。
 const ALL_ITEMS: LearnItem[] = [
   ...(frames as LearnItem[]),
+  ...(frames2 as LearnItem[]),
   ...(food as LearnItem[]),
   ...(medical as LearnItem[]),
   ...(directions as LearnItem[]),
