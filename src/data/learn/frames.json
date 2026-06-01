@@ -1,0 +1,287 @@
+[
+  {
+    "id": "frame-001",
+    "type": "frame",
+    "category": "frames",
+    "en": "Could I have ___, please?",
+    "zh": "可以給我……嗎？",
+    "note": "最萬用的禮貌索取句型，後面接「想要的東西」。",
+    "examples": [
+      { "en": "Could I have the menu, please?", "zh": "可以給我菜單嗎？", "audio": "/audio/learn/frames/frame-001-e1.mp3" },
+      { "en": "Could I have a receipt, please?", "zh": "可以給我收據嗎？", "audio": "/audio/learn/frames/frame-001-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-002",
+    "type": "frame",
+    "category": "frames",
+    "en": "Could you ___, please?",
+    "zh": "可以請你……嗎？",
+    "note": "請對方「做某件事」，後面接動詞。",
+    "examples": [
+      { "en": "Could you help me, please?", "zh": "可以請你幫我嗎？", "audio": "/audio/learn/frames/frame-002-e1.mp3" },
+      { "en": "Could you call a taxi, please?", "zh": "可以請你幫我叫計程車嗎？", "audio": "/audio/learn/frames/frame-002-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-003",
+    "type": "frame",
+    "category": "frames",
+    "en": "Can I get ___?",
+    "zh": "我可以要……嗎？",
+    "note": "口語、輕鬆版的索取，點餐購物常用。",
+    "examples": [
+      { "en": "Can I get a bag?", "zh": "可以給我一個袋子嗎？", "audio": "/audio/learn/frames/frame-003-e1.mp3" },
+      { "en": "Can I get this to go?", "zh": "這個可以外帶嗎？", "audio": "/audio/learn/frames/frame-003-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-004",
+    "type": "frame",
+    "category": "frames",
+    "en": "I'd like ___.",
+    "zh": "我想要……。",
+    "note": "比 I want 更禮貌，後面接「名詞」。",
+    "examples": [
+      { "en": "I'd like a coffee.", "zh": "我想要一杯咖啡。", "audio": "/audio/learn/frames/frame-004-e1.mp3" },
+      { "en": "I'd like a room for two nights.", "zh": "我想要一間住兩晚的房。", "audio": "/audio/learn/frames/frame-004-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-005",
+    "type": "frame",
+    "category": "frames",
+    "en": "I'd like to ___.",
+    "zh": "我想要（做）……。",
+    "note": "後面接「動詞」，表達想做的動作。",
+    "examples": [
+      { "en": "I'd like to check in.", "zh": "我想辦理入住。", "audio": "/audio/learn/frames/frame-005-e1.mp3" },
+      { "en": "I'd like to order now.", "zh": "我現在想點餐。", "audio": "/audio/learn/frames/frame-005-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-006",
+    "type": "frame",
+    "category": "frames",
+    "en": "May I ___?",
+    "zh": "我可以……嗎？",
+    "note": "最禮貌的徵詢許可，後面接動詞。",
+    "examples": [
+      { "en": "May I see the menu?", "zh": "我可以看一下菜單嗎？", "audio": "/audio/learn/frames/frame-006-e1.mp3" },
+      { "en": "May I sit here?", "zh": "我可以坐這裡嗎？", "audio": "/audio/learn/frames/frame-006-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-007",
+    "type": "frame",
+    "category": "frames",
+    "en": "Where is ___?",
+    "zh": "……在哪裡？",
+    "note": "問「地點」，後面接想找的東西或地方。",
+    "examples": [
+      { "en": "Where is the restroom?", "zh": "廁所在哪裡？", "audio": "/audio/learn/frames/frame-007-e1.mp3" },
+      { "en": "Where is the station?", "zh": "車站在哪裡？", "audio": "/audio/learn/frames/frame-007-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-008",
+    "type": "frame",
+    "category": "frames",
+    "en": "Where can I ___?",
+    "zh": "我可以在哪裡……？",
+    "note": "問「在哪裡做某事」，後面接動詞。",
+    "examples": [
+      { "en": "Where can I buy a ticket?", "zh": "我可以在哪裡買票？", "audio": "/audio/learn/frames/frame-008-e1.mp3" },
+      { "en": "Where can I get a taxi?", "zh": "我可以在哪裡搭計程車？", "audio": "/audio/learn/frames/frame-008-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-009",
+    "type": "frame",
+    "category": "frames",
+    "en": "How much is ___?",
+    "zh": "……多少錢？",
+    "note": "問價格，後面接東西；問複數用 How much are ___?",
+    "examples": [
+      { "en": "How much is this?", "zh": "這個多少錢？", "audio": "/audio/learn/frames/frame-009-e1.mp3" },
+      { "en": "How much is a ticket to the city?", "zh": "到市區的票多少錢？", "audio": "/audio/learn/frames/frame-009-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-010",
+    "type": "frame",
+    "category": "frames",
+    "en": "How do I get to ___?",
+    "zh": "我要怎麼去……？",
+    "note": "問路最常用，後面接目的地。",
+    "examples": [
+      { "en": "How do I get to the airport?", "zh": "我要怎麼去機場？", "audio": "/audio/learn/frames/frame-010-e1.mp3" },
+      { "en": "How do I get to downtown?", "zh": "我要怎麼去市中心？", "audio": "/audio/learn/frames/frame-010-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-011",
+    "type": "frame",
+    "category": "frames",
+    "en": "What time ___?",
+    "zh": "……是幾點？／幾點……？",
+    "note": "問時間，後面接事件。",
+    "examples": [
+      { "en": "What time is checkout?", "zh": "退房是幾點？", "audio": "/audio/learn/frames/frame-011-e1.mp3" },
+      { "en": "What time do you close?", "zh": "你們幾點關門？", "audio": "/audio/learn/frames/frame-011-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-012",
+    "type": "frame",
+    "category": "frames",
+    "en": "Is there ___ nearby?",
+    "zh": "附近有……嗎？",
+    "note": "問附近有沒有某設施，後面接名詞。",
+    "examples": [
+      { "en": "Is there a pharmacy nearby?", "zh": "附近有藥局嗎？", "audio": "/audio/learn/frames/frame-012-e1.mp3" },
+      { "en": "Is there an ATM nearby?", "zh": "附近有提款機嗎？", "audio": "/audio/learn/frames/frame-012-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-013",
+    "type": "frame",
+    "category": "frames",
+    "en": "Do you have ___?",
+    "zh": "你們有……嗎？",
+    "note": "問對方有沒有某物，購物住宿常用。",
+    "examples": [
+      { "en": "Do you have a table for two?", "zh": "你們有兩位的位子嗎？", "audio": "/audio/learn/frames/frame-013-e1.mp3" },
+      { "en": "Do you have this in a larger size?", "zh": "這個有大一點的尺寸嗎？", "audio": "/audio/learn/frames/frame-013-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-014",
+    "type": "frame",
+    "category": "frames",
+    "en": "Which ___?",
+    "zh": "哪一個……？",
+    "note": "在選項中問「哪一個」，後面接名詞。",
+    "examples": [
+      { "en": "Which way is the city center?", "zh": "市中心往哪個方向？", "audio": "/audio/learn/frames/frame-014-e1.mp3" },
+      { "en": "Which bus goes downtown?", "zh": "哪一班公車到市中心？", "audio": "/audio/learn/frames/frame-014-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-015",
+    "type": "frame",
+    "category": "frames",
+    "en": "How long does it take to ___?",
+    "zh": "……要花多久時間？",
+    "note": "問所需時間，後面接動詞。",
+    "examples": [
+      { "en": "How long does it take to get there?", "zh": "到那裡要多久？", "audio": "/audio/learn/frames/frame-015-e1.mp3" },
+      { "en": "How long does it take to walk?", "zh": "走路要多久？", "audio": "/audio/learn/frames/frame-015-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-016",
+    "type": "frame",
+    "category": "frames",
+    "en": "Can I ___ here?",
+    "zh": "我可以在這裡……嗎？",
+    "note": "徵詢能否在此做某事，後面接動詞。",
+    "examples": [
+      { "en": "Can I park here?", "zh": "我可以在這裡停車嗎？", "audio": "/audio/learn/frames/frame-016-e1.mp3" },
+      { "en": "Can I take a photo here?", "zh": "我可以在這裡拍照嗎？", "audio": "/audio/learn/frames/frame-016-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-017",
+    "type": "frame",
+    "category": "frames",
+    "en": "I'm looking for ___.",
+    "zh": "我在找……。",
+    "note": "表達正在找某物或某地，後面接名詞。",
+    "examples": [
+      { "en": "I'm looking for this address.", "zh": "我在找這個地址。", "audio": "/audio/learn/frames/frame-017-e1.mp3" },
+      { "en": "I'm looking for a gift for my friend.", "zh": "我在找送朋友的禮物。", "audio": "/audio/learn/frames/frame-017-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-018",
+    "type": "frame",
+    "category": "frames",
+    "en": "I need ___.",
+    "zh": "我需要……。",
+    "note": "表達需求，緊急時尤其有用，後面接名詞。",
+    "examples": [
+      { "en": "I need a doctor.", "zh": "我需要看醫生。", "audio": "/audio/learn/frames/frame-018-e1.mp3" },
+      { "en": "I need some help.", "zh": "我需要幫忙。", "audio": "/audio/learn/frames/frame-018-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-019",
+    "type": "frame",
+    "category": "frames",
+    "en": "I'm allergic to ___.",
+    "zh": "我對……過敏。",
+    "note": "就醫、點餐保命句型，後面接過敏原。",
+    "examples": [
+      { "en": "I'm allergic to nuts.", "zh": "我對堅果過敏。", "audio": "/audio/learn/frames/frame-019-e1.mp3" },
+      { "en": "I'm allergic to penicillin.", "zh": "我對盤尼西林過敏。", "audio": "/audio/learn/frames/frame-019-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-020",
+    "type": "frame",
+    "category": "frames",
+    "en": "Is it OK to ___?",
+    "zh": "可以……嗎？（這樣做沒問題嗎？）",
+    "note": "委婉確認某行為是否被允許，後面接動詞。",
+    "examples": [
+      { "en": "Is it OK to pay by card?", "zh": "可以刷卡嗎？", "audio": "/audio/learn/frames/frame-020-e1.mp3" },
+      { "en": "Is it OK to sit here?", "zh": "可以坐這裡嗎？", "audio": "/audio/learn/frames/frame-020-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-021",
+    "type": "frame",
+    "category": "frames",
+    "en": "Could you repeat that, please?",
+    "zh": "可以再說一次嗎？",
+    "note": "聽不清楚時的萬用救命句，無需替換。",
+    "examples": [
+      { "en": "Sorry, could you repeat that, please?", "zh": "抱歉，可以再說一次嗎？", "audio": "/audio/learn/frames/frame-021-e1.mp3" }
+    ]
+  },
+  {
+    "id": "frame-022",
+    "type": "frame",
+    "category": "frames",
+    "en": "Could you speak more slowly, please?",
+    "zh": "可以說慢一點嗎？",
+    "note": "聽不懂時的救命句，無需替換。",
+    "examples": [
+      { "en": "Could you speak more slowly, please?", "zh": "可以說慢一點嗎？", "audio": "/audio/learn/frames/frame-022-e1.mp3" }
+    ]
+  },
+  {
+    "id": "frame-023",
+    "type": "frame",
+    "category": "frames",
+    "en": "What does ___ mean?",
+    "zh": "……是什麼意思？",
+    "note": "聽到不懂的字時，後面接那個字。",
+    "examples": [
+      { "en": "What does this word mean?", "zh": "這個字是什麼意思？", "audio": "/audio/learn/frames/frame-023-e1.mp3" },
+      { "en": "What does 'gate' mean?", "zh": "「gate」是什麼意思？", "audio": "/audio/learn/frames/frame-023-e2.mp3" }
+    ]
+  },
+  {
+    "id": "frame-024",
+    "type": "frame",
+    "category": "frames",
+    "en": "How do you say ___ in English?",
+    "zh": "……英文怎麼說？",
+    "note": "想表達卻不會說時，後面接中文或用手指。",
+    "examples": [
+      { "en": "How do you say this in English?", "zh": "這個英文怎麼說？", "audio": "/audio/learn/frames/frame-024-e1.mp3" }
+    ]
+  }
+]

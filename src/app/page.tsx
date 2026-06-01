@@ -24,10 +24,25 @@ export default function HomePage() {
       {/* 搜尋入口 */}
       <Link
         href="/search"
-        className="mb-6 flex items-center gap-2 rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3 text-[var(--text-muted)] shadow-sm"
+        className="mb-4 flex items-center gap-2 rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3 text-[var(--text-muted)] shadow-sm"
       >
         <span className="text-lg">🔍</span>
         <span className="text-sm">搜尋中英文（例：計程車、restroom）</span>
+      </Link>
+
+      {/* 學習庫入口 */}
+      <Link
+        href="/learn"
+        className="mb-6 flex items-center gap-3 rounded-2xl bg-gradient-to-br from-indigo-500 to-violet-600 px-4 py-3 text-white shadow-md transition active:scale-[0.99]"
+      >
+        <span className="text-2xl">📚</span>
+        <span className="min-w-0 flex-1">
+          <span className="block font-bold">學習庫</span>
+          <span className="block text-xs text-white/85">
+            句型骨架＋主題單字，行前打底、現場靈活造句
+          </span>
+        </span>
+        <span className="text-xl">›</span>
       </Link>
 
       {/* 情境大圖示 */}

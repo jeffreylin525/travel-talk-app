@@ -1,0 +1,246 @@
+[
+  {
+    "id": "food-001",
+    "type": "vocab",
+    "category": "food",
+    "en": "menu",
+    "zh": "菜單",
+    "pos": "n.",
+    "audio": "/audio/learn/food/food-001.mp3",
+    "examples": [
+      { "en": "Could I see the menu, please?", "zh": "可以給我菜單嗎？", "audio": "/audio/learn/food/food-001-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-002",
+    "type": "vocab",
+    "category": "food",
+    "en": "appetizer",
+    "zh": "開胃菜、前菜",
+    "pos": "n.",
+    "audio": "/audio/learn/food/food-002.mp3",
+    "examples": [
+      { "en": "We'll start with an appetizer.", "zh": "我們先來個前菜。", "audio": "/audio/learn/food/food-002-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-003",
+    "type": "vocab",
+    "category": "food",
+    "en": "main course",
+    "zh": "主菜",
+    "pos": "n.",
+    "audio": "/audio/learn/food/food-003.mp3",
+    "examples": [
+      { "en": "What do you recommend for the main course?", "zh": "主菜你推薦什麼？", "audio": "/audio/learn/food/food-003-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-004",
+    "type": "vocab",
+    "category": "food",
+    "en": "dessert",
+    "zh": "甜點",
+    "pos": "n.",
+    "audio": "/audio/learn/food/food-004.mp3",
+    "examples": [
+      { "en": "Would you like some dessert?", "zh": "要不要來點甜點？", "audio": "/audio/learn/food/food-004-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-005",
+    "type": "vocab",
+    "category": "food",
+    "en": "the bill / the check",
+    "zh": "帳單（英式 bill／美式 check）",
+    "pos": "n.",
+    "note": "結帳時說 Could we get the bill/check, please?",
+    "audio": "/audio/learn/food/food-005.mp3",
+    "examples": [
+      { "en": "Could we get the check, please?", "zh": "可以幫我們結帳嗎？", "audio": "/audio/learn/food/food-005-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-006",
+    "type": "vocab",
+    "category": "food",
+    "en": "tip",
+    "zh": "小費",
+    "pos": "n.",
+    "audio": "/audio/learn/food/food-006.mp3",
+    "examples": [
+      { "en": "Is the tip included?", "zh": "帳單有含小費嗎？", "audio": "/audio/learn/food/food-006-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-007",
+    "type": "vocab",
+    "category": "food",
+    "en": "still water",
+    "zh": "無氣泡水（一般礦泉水）",
+    "pos": "n.",
+    "audio": "/audio/learn/food/food-007.mp3",
+    "examples": [
+      { "en": "A bottle of still water, please.", "zh": "請給我一瓶無氣泡水。", "audio": "/audio/learn/food/food-007-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-008",
+    "type": "vocab",
+    "category": "food",
+    "en": "sparkling water",
+    "zh": "氣泡水",
+    "pos": "n.",
+    "audio": "/audio/learn/food/food-008.mp3",
+    "examples": [
+      { "en": "Still or sparkling water?", "zh": "要無氣泡還是氣泡水？", "audio": "/audio/learn/food/food-008-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-009",
+    "type": "vocab",
+    "category": "food",
+    "en": "tap water",
+    "zh": "自來水（餐廳常指免費的水）",
+    "pos": "n.",
+    "audio": "/audio/learn/food/food-009.mp3",
+    "examples": [
+      { "en": "Can I just have some tap water?", "zh": "可以給我一些自來水就好嗎？", "audio": "/audio/learn/food/food-009-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-010",
+    "type": "vocab",
+    "category": "food",
+    "en": "rare",
+    "zh": "（牛排）三分熟",
+    "pos": "adj.",
+    "audio": "/audio/learn/food/food-010.mp3",
+    "examples": [
+      { "en": "I'd like my steak rare.", "zh": "我的牛排要三分熟。", "audio": "/audio/learn/food/food-010-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-011",
+    "type": "vocab",
+    "category": "food",
+    "en": "medium",
+    "zh": "（牛排）五分熟",
+    "pos": "adj.",
+    "audio": "/audio/learn/food/food-011.mp3",
+    "examples": [
+      { "en": "Medium, please.", "zh": "五分熟，謝謝。", "audio": "/audio/learn/food/food-011-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-012",
+    "type": "vocab",
+    "category": "food",
+    "en": "well-done",
+    "zh": "（牛排）全熟",
+    "pos": "adj.",
+    "audio": "/audio/learn/food/food-012.mp3",
+    "examples": [
+      { "en": "I'd like it well-done.", "zh": "我要全熟。", "audio": "/audio/learn/food/food-012-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-013",
+    "type": "vocab",
+    "category": "food",
+    "en": "spicy",
+    "zh": "辣的",
+    "pos": "adj.",
+    "audio": "/audio/learn/food/food-013.mp3",
+    "examples": [
+      { "en": "Is this dish spicy?", "zh": "這道菜會辣嗎？", "audio": "/audio/learn/food/food-013-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-014",
+    "type": "vocab",
+    "category": "food",
+    "en": "vegetarian",
+    "zh": "素食的；素食者",
+    "pos": "adj./n.",
+    "audio": "/audio/learn/food/food-014.mp3",
+    "examples": [
+      { "en": "Do you have any vegetarian options?", "zh": "有素食的選擇嗎？", "audio": "/audio/learn/food/food-014-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-015",
+    "type": "vocab",
+    "category": "food",
+    "en": "allergic",
+    "zh": "過敏的",
+    "pos": "adj.",
+    "note": "be allergic to + 過敏原。",
+    "audio": "/audio/learn/food/food-015.mp3",
+    "examples": [
+      { "en": "I'm allergic to seafood.", "zh": "我對海鮮過敏。", "audio": "/audio/learn/food/food-015-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-016",
+    "type": "vocab",
+    "category": "food",
+    "en": "to go / takeout",
+    "zh": "外帶",
+    "pos": "phr.",
+    "note": "美式 to go／takeout；英式常說 takeaway。",
+    "audio": "/audio/learn/food/food-016.mp3",
+    "examples": [
+      { "en": "Can I get this to go?", "zh": "這個可以外帶嗎？", "audio": "/audio/learn/food/food-016-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-017",
+    "type": "vocab",
+    "category": "food",
+    "en": "refill",
+    "zh": "續杯、再加（飲料）",
+    "pos": "n./v.",
+    "audio": "/audio/learn/food/food-017.mp3",
+    "examples": [
+      { "en": "Can I get a free refill?", "zh": "可以免費續杯嗎？", "audio": "/audio/learn/food/food-017-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-018",
+    "type": "vocab",
+    "category": "food",
+    "en": "napkin",
+    "zh": "餐巾、紙巾",
+    "pos": "n.",
+    "audio": "/audio/learn/food/food-018.mp3",
+    "examples": [
+      { "en": "Could I have some napkins?", "zh": "可以給我一些餐巾紙嗎？", "audio": "/audio/learn/food/food-018-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-019",
+    "type": "vocab",
+    "category": "food",
+    "en": "reservation",
+    "zh": "訂位、預約",
+    "pos": "n.",
+    "note": "make a reservation 訂位；I have a reservation 我有訂位。",
+    "audio": "/audio/learn/food/food-019.mp3",
+    "examples": [
+      { "en": "I have a reservation under Lin.", "zh": "我有訂位，名字是 Lin。", "audio": "/audio/learn/food/food-019-e1.mp3" }
+    ]
+  },
+  {
+    "id": "food-020",
+    "type": "vocab",
+    "category": "food",
+    "en": "split the bill",
+    "zh": "分開付帳、各付各的",
+    "pos": "phr.",
+    "audio": "/audio/learn/food/food-020.mp3",
+    "examples": [
+      { "en": "Can we split the bill?", "zh": "我們可以分開付嗎？", "audio": "/audio/learn/food/food-020-e1.mp3" }
+    ]
+  }
+]

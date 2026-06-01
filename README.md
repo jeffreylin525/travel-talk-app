@@ -27,13 +27,23 @@ cp .env.example .env.local   # 填入 OPENAI_API_KEY
 npm run tts                  # 產生 public/audio/**/*.mp3（已存在的會跳過）
 ```
 
-## 新增情境內容
+## 新增情境內容（會話卡）
 
 1. 在 `src/data/cards/` 新增 `<scenario>.json`（格式參考 `airport.json`）。
 2. 到 `src/data/cards.ts` import 並加進 `ALL_CARDS`。
 3. `npm run tts` 補產生新句子的音檔。
 
 情境清單與圖示定義在 `src/data/scenarios.ts`。
+
+## 學習庫（第三層地基）
+
+句型骨架 + 主題單字 + 慣用語，用來打底與練習造句，是 SRS／自我測驗的素材來源。
+
+- 資料：`src/data/learn/<category>.json`，型別 `LearnItem`（type: frame / vocab / phrase）。
+- 新增分類：在 `src/data/learn-categories.ts` 加分類，新增對應 JSON，再到 `src/data/learn.ts` import。
+- 句型靠例句發音（本體通常不給 `audio`）；單字本體要給 `audio`。
+- `npm run tts` 會同時掃描 `cards/` 與 `learn/` 產生音檔。
+- 待做：SRS 間隔複習、自我測驗（中翻英／聽力選擇）、跟讀錄音比對。
 
 ## 部署
 

@@ -17,6 +17,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const CARDS_DIR = join(ROOT, "src", "data", "cards");
+const LEARN_DIR = join(ROOT, "src", "data", "learn");
 const PUBLIC_DIR = join(ROOT, "public");
 
 // 設定
@@ -42,19 +43,37 @@ if (!API_KEY) {
   process.exit(1);
 }
 
-// 蒐集所有 (text, audioPath)
-function collectLines() {
-  const lines = [];
-  for (const file of readdirSync(CARDS_DIR)) {
-    if (!file.endsWith(".json")) continue;
-    const cards = JSON.parse(readFileSync(join(CARDS_DIR, file), "utf8"));
-    for (const card of cards) {
-      const all = [card.main, ...(card.replies ?? [])];
-      for (const line of all) {
-        if (line.audio && line.en) lines.push({ text: line.en, audio: line.audio });
-      }
+function readJsonDir(dir) {
+  if (!existsSync(dir)) return [];
+  const out = [];
+  for (const file of readdirSync(dir)) {
+    if (file.endsWith(".json")) {
+      out.push(...JSON.parse(readFileSync(join(dir, file), "utf8")));
     }
   }
+  return out;
+}
+
+// 蒐集所有 (text, audioPath)：會話卡（main + replies）與學習庫（本體 + 例句）
+function collectLines() {
+  const lines = [];
+  const push = (line) => {
+    if (line && line.audio && line.en)
+      lines.push({ text: line.en, audio: line.audio });
+  };
+
+  // 會話卡
+  for (const card of readJsonDir(CARDS_DIR)) {
+    push(card.main);
+    (card.replies ?? []).forEach(push);
+  }
+
+  // 學習庫
+  for (const item of readJsonDir(LEARN_DIR)) {
+    push(item); // 本體（單字有 audio，句型通常無）
+    (item.examples ?? []).forEach(push);
+  }
+
   return lines;
 }
 
