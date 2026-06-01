@@ -9,6 +9,10 @@ import time from "./learn/time.json";
 import transport from "./learn/transport.json";
 import customs from "./learn/customs.json";
 import signs from "./learn/signs.json";
+import street from "./learn/street.json";
+import lodging from "./learn/lodging.json";
+import store from "./learn/store.json";
+import medlabel from "./learn/medlabel.json";
 import idioms from "./learn/idioms.json";
 
 // 逐類加入：完成新分類後，import 進來並加進下面的陣列即可。
@@ -23,6 +27,10 @@ const ALL_ITEMS: LearnItem[] = [
   ...(transport as LearnItem[]),
   ...(customs as LearnItem[]),
   ...(signs as LearnItem[]),
+  ...(street as LearnItem[]),
+  ...(lodging as LearnItem[]),
+  ...(store as LearnItem[]),
+  ...(medlabel as LearnItem[]),
   ...(idioms as LearnItem[]),
 ];
 
