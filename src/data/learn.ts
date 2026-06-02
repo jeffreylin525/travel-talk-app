@@ -2,11 +2,17 @@ import type { LearnItem } from "@/lib/learn-types";
 import frames from "./learn/frames.json";
 import frames2 from "./learn/frames2.json";
 import food from "./learn/food.json";
+import food2 from "./learn/food2.json";
 import medical from "./learn/medical.json";
+import medical2 from "./learn/medical2.json";
 import directions from "./learn/directions.json";
+import directions2 from "./learn/directions2.json";
 import money from "./learn/money.json";
+import money2 from "./learn/money2.json";
 import time from "./learn/time.json";
+import time2 from "./learn/time2.json";
 import transport from "./learn/transport.json";
+import transport2 from "./learn/transport2.json";
 import customs from "./learn/customs.json";
 import signs from "./learn/signs.json";
 import street from "./learn/street.json";
@@ -20,11 +26,17 @@ const ALL_ITEMS: LearnItem[] = [
   ...(frames as LearnItem[]),
   ...(frames2 as LearnItem[]),
   ...(food as LearnItem[]),
+  ...(food2 as LearnItem[]),
   ...(medical as LearnItem[]),
+  ...(medical2 as LearnItem[]),
   ...(directions as LearnItem[]),
+  ...(directions2 as LearnItem[]),
   ...(money as LearnItem[]),
+  ...(money2 as LearnItem[]),
   ...(time as LearnItem[]),
+  ...(time2 as LearnItem[]),
   ...(transport as LearnItem[]),
+  ...(transport2 as LearnItem[]),
   ...(customs as LearnItem[]),
   ...(signs as LearnItem[]),
   ...(street as LearnItem[]),
