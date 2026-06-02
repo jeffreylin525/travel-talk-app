@@ -67,6 +67,15 @@ export const LEARN_CATEGORIES: LearnCategory[] = [
     desc: "交通方式、車站與機場設施",
     color: "from-cyan-500 to-teal-600",
   },
+  {
+    id: "smalltalk",
+    type: "vocab",
+    emoji: "🗣️",
+    zh: "社交閒聊",
+    en: "Small Talk",
+    desc: "情緒、稱讚、興趣、家庭與工作",
+    color: "from-green-500 to-emerald-600",
+  },
   // ── 標示與須知（看懂、聽懂）──
   {
     id: "customs",
@@ -121,6 +130,33 @@ export const LEARN_CATEGORIES: LearnCategory[] = [
     en: "Medicine Labels",
     desc: "用法用量與警語標示",
     color: "from-emerald-600 to-green-700",
+  },
+  {
+    id: "attractions",
+    type: "sign",
+    emoji: "🎟️",
+    zh: "觀光景點",
+    en: "Attractions",
+    desc: "門票、導覽、參觀須知",
+    color: "from-cyan-600 to-sky-700",
+  },
+  {
+    id: "connect",
+    type: "sign",
+    emoji: "📶",
+    zh: "上網通訊",
+    en: "Connectivity",
+    desc: "SIM 卡、Wi-Fi、儲值、漫遊",
+    color: "from-sky-600 to-blue-700",
+  },
+  {
+    id: "menu",
+    type: "sign",
+    emoji: "📜",
+    zh: "菜單標示",
+    en: "Menu Terms",
+    desc: "看懂菜單上的用語",
+    color: "from-orange-600 to-amber-700",
   },
   // ── 慣用語 ──
   {
