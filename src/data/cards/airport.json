@@ -199,5 +199,131 @@
       { "en": "There are charging stations near gate 30.", "zh": "30 號門附近有充電站。", "audio": "/audio/airport/airport-022-r1.mp3" }
     ],
     "tags": ["充電", "charge", "插座"]
+  },
+  {
+    "id": "airport-023",
+    "scenario": "airport",
+    "main": { "en": "Here's my boarding pass. Which way is my seat?", "zh": "這是我的登機證，我的座位往哪邊走？", "audio": "/audio/airport/airport-023.mp3" },
+    "replies": [
+      { "en": "Thank you. Your seat is 23A, on the left side.", "zh": "謝謝。您的座位是 23A，在左邊。", "audio": "/audio/airport/airport-023-r1.mp3" }
+    ],
+    "tags": ["登機", "登機證", "座位", "boarding pass"]
+  },
+  {
+    "id": "airport-024",
+    "scenario": "airport",
+    "main": { "en": "Could you help me find my seat?", "zh": "可以幫我找座位嗎？", "audio": "/audio/airport/airport-024.mp3" },
+    "replies": [
+      { "en": "Sure, it's a few rows back on the right.", "zh": "當然，在後面幾排的右邊。", "audio": "/audio/airport/airport-024-r1.mp3" }
+    ],
+    "tags": ["座位", "機艙", "seat"]
+  },
+  {
+    "id": "airport-025",
+    "scenario": "airport",
+    "main": { "en": "Can I put my bag in the overhead bin?", "zh": "我可以把包包放在頭頂的行李櫃嗎？", "audio": "/audio/airport/airport-025.mp3" },
+    "replies": [
+      { "en": "Yes, but please put the small one under the seat.", "zh": "可以，但小包請放在前方座位下。", "audio": "/audio/airport/airport-025-r1.mp3" }
+    ],
+    "tags": ["行李", "行李櫃", "overhead bin"]
+  },
+  {
+    "id": "airport-026",
+    "scenario": "airport",
+    "main": { "en": "Would you mind switching seats so I can sit with my family?", "zh": "您介意跟我換座位，讓我和家人坐一起嗎？", "audio": "/audio/airport/airport-026.mp3" },
+    "replies": [
+      { "en": "No problem, I can move.", "zh": "沒問題，我可以換。", "audio": "/audio/airport/airport-026-r1.mp3" }
+    ],
+    "tags": ["座位", "換位", "switch seats"]
+  },
+  {
+    "id": "airport-027",
+    "scenario": "airport",
+    "main": { "en": "What are the meal choices?", "zh": "餐點有哪些選擇？", "audio": "/audio/airport/airport-027.mp3" },
+    "replies": [
+      { "en": "We have chicken or beef. Which would you like?", "zh": "我們有雞肉和牛肉，您要哪一種？", "audio": "/audio/airport/airport-027-r1.mp3" }
+    ],
+    "tags": ["餐點", "機上", "meal"]
+  },
+  {
+    "id": "airport-028",
+    "scenario": "airport",
+    "main": { "en": "I'll have the chicken, please.", "zh": "我要雞肉，謝謝。", "audio": "/audio/airport/airport-028.mp3" },
+    "replies": [
+      { "en": "Here you go. Enjoy your meal.", "zh": "這是您的餐點，請慢用。", "audio": "/audio/airport/airport-028-r1.mp3" }
+    ],
+    "tags": ["餐點", "點餐", "meal"]
+  },
+  {
+    "id": "airport-029",
+    "scenario": "airport",
+    "main": { "en": "What drinks do you have?", "zh": "你們有什麼飲料？", "audio": "/audio/airport/airport-029.mp3" },
+    "replies": [
+      { "en": "We have water, juice, coffee, and tea.", "zh": "我們有水、果汁、咖啡和茶。", "audio": "/audio/airport/airport-029-r1.mp3" }
+    ],
+    "tags": ["飲料", "機上", "drinks"]
+  },
+  {
+    "id": "airport-030",
+    "scenario": "airport",
+    "main": { "en": "Could I have a glass of warm water, please?", "zh": "可以給我一杯溫水嗎？", "audio": "/audio/airport/airport-030.mp3" },
+    "replies": [
+      { "en": "Of course, I'll bring it right away.", "zh": "當然，我馬上拿來。", "audio": "/audio/airport/airport-030-r1.mp3" }
+    ],
+    "tags": ["飲料", "溫水", "warm water"]
+  },
+  {
+    "id": "airport-031",
+    "scenario": "airport",
+    "main": { "en": "I need to take my medicine. Could I have some water?", "zh": "我必須吃藥，可以給我一些水嗎？", "audio": "/audio/airport/airport-031.mp3" },
+    "replies": [
+      { "en": "Sure, here's some water for you.", "zh": "好的，這是給您的水。", "audio": "/audio/airport/airport-031-r1.mp3" }
+    ],
+    "tags": ["吃藥", "健康", "medicine"]
+  },
+  {
+    "id": "airport-032",
+    "scenario": "airport",
+    "main": { "en": "How do I turn down the air vent above my seat?", "zh": "我要怎麼把座位上方的出風口關小一點？", "audio": "/audio/airport/airport-032.mp3" },
+    "replies": [
+      { "en": "Just twist the round knob to close it.", "zh": "轉一下那個圓形旋鈕就能關小。", "audio": "/audio/airport/airport-032-r1.mp3" }
+    ],
+    "tags": ["出風口", "冷氣", "air vent"]
+  },
+  {
+    "id": "airport-033",
+    "scenario": "airport",
+    "main": { "en": "I'm a little cold. Could I get a blanket?", "zh": "我有點冷，可以給我一條毯子嗎？", "audio": "/audio/airport/airport-033.mp3" },
+    "replies": [
+      { "en": "Certainly, I'll get one for you.", "zh": "沒問題，我幫您拿一條。", "audio": "/audio/airport/airport-033-r1.mp3" }
+    ],
+    "tags": ["毯子", "機艙", "blanket"]
+  },
+  {
+    "id": "airport-034",
+    "scenario": "airport",
+    "main": { "en": "Is it okay if I recline my seat?", "zh": "我把椅背往後躺可以嗎？", "audio": "/audio/airport/airport-034.mp3" },
+    "replies": [
+      { "en": "Sure, go ahead.", "zh": "可以，請便。", "audio": "/audio/airport/airport-034-r1.mp3" }
+    ],
+    "tags": ["椅背", "座位", "recline"]
+  },
+  {
+    "id": "airport-035",
+    "scenario": "airport",
+    "main": { "en": "Excuse me, where is the restroom?", "zh": "不好意思，洗手間在哪裡？", "audio": "/audio/airport/airport-035.mp3" },
+    "replies": [
+      { "en": "It's at the back of the cabin.", "zh": "在機艙後方。", "audio": "/audio/airport/airport-035-r1.mp3" }
+    ],
+    "tags": ["洗手間", "機艙", "restroom"]
+  },
+  {
+    "id": "airport-036",
+    "scenario": "airport",
+    "main": { "en": "I'm not feeling well. Do you have a sickness bag?", "zh": "我覺得不太舒服，有嘔吐袋嗎？", "audio": "/audio/airport/airport-036.mp3" },
+    "replies": [
+      { "en": "Yes, it's in the seat pocket in front of you.", "zh": "有的，在您前方的椅背置物袋裡。", "audio": "/audio/airport/airport-036-r1.mp3" }
+    ],
+    "tags": ["不舒服", "暈機", "sickness bag"]
   }
 ]
