@@ -14,6 +14,10 @@ import time2 from "./learn/time2.json";
 import transport from "./learn/transport.json";
 import transport2 from "./learn/transport2.json";
 import smalltalk from "./learn/smalltalk.json";
+import coreverb from "./learn/coreverb.json";
+import corenoun from "./learn/corenoun.json";
+import coreadj from "./learn/coreadj.json";
+import corefunc from "./learn/corefunc.json";
 import customs from "./learn/customs.json";
 import signs from "./learn/signs.json";
 import street from "./learn/street.json";
@@ -42,6 +46,10 @@ const ALL_ITEMS: LearnItem[] = [
   ...(transport as LearnItem[]),
   ...(transport2 as LearnItem[]),
   ...(smalltalk as LearnItem[]),
+  ...(coreverb as LearnItem[]),
+  ...(corenoun as LearnItem[]),
+  ...(coreadj as LearnItem[]),
+  ...(corefunc as LearnItem[]),
   ...(customs as LearnItem[]),
   ...(signs as LearnItem[]),
   ...(street as LearnItem[]),

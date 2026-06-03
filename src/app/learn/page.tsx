@@ -7,7 +7,7 @@ import { countLearnByCategory } from "@/data/learn";
 import type { LearnType } from "@/lib/learn-types";
 import ReviewBanner from "@/components/ReviewBanner";
 
-const TYPE_ORDER: LearnType[] = ["frame", "vocab", "sign", "phrase"];
+const TYPE_ORDER: LearnType[] = ["frame", "vocab", "word", "sign", "phrase"];
 
 export default function LearnHomePage() {
   return (

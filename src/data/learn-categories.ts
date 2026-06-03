@@ -76,6 +76,43 @@ export const LEARN_CATEGORIES: LearnCategory[] = [
     desc: "情緒、稱讚、興趣、家庭與工作",
     color: "from-green-500 to-emerald-600",
   },
+  // ── 核心字庫（基礎 / 中級，依詞性分組）──
+  {
+    id: "coreverb",
+    type: "word",
+    emoji: "🏃",
+    zh: "基礎動詞",
+    en: "Core Verbs",
+    desc: "最高頻動詞，動作與請求的骨幹",
+    color: "from-blue-600 to-indigo-700",
+  },
+  {
+    id: "corenoun",
+    type: "word",
+    emoji: "📦",
+    zh: "基礎名詞",
+    en: "Core Nouns",
+    desc: "人事時地物的高頻名詞",
+    color: "from-emerald-600 to-teal-700",
+  },
+  {
+    id: "coreadj",
+    type: "word",
+    emoji: "🎨",
+    zh: "基礎形容詞·副詞",
+    en: "Core Adjectives & Adverbs",
+    desc: "描述與程度的常用字",
+    color: "from-violet-600 to-purple-700",
+  },
+  {
+    id: "corefunc",
+    type: "word",
+    emoji: "🔗",
+    zh: "基礎功能詞",
+    en: "Core Function Words",
+    desc: "介系詞、連接詞、疑問詞與指示詞",
+    color: "from-slate-500 to-gray-600",
+  },
   // ── 標示與須知（看懂、聽懂）──
   {
     id: "customs",
@@ -178,6 +215,7 @@ export function getLearnCategory(id: string): LearnCategory | undefined {
 export const LEARN_TYPE_LABELS: Record<string, string> = {
   frame: "句型框架",
   vocab: "主題單字",
+  word: "核心字庫",
   sign: "標示與須知",
   phrase: "慣用語",
 };
