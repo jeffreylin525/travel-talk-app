@@ -18,6 +18,10 @@ import coreverb from "./learn/coreverb.json";
 import corenoun from "./learn/corenoun.json";
 import coreadj from "./learn/coreadj.json";
 import corefunc from "./learn/corefunc.json";
+import midverb from "./learn/midverb.json";
+import midnoun from "./learn/midnoun.json";
+import midadj from "./learn/midadj.json";
+import midlink from "./learn/midlink.json";
 import customs from "./learn/customs.json";
 import signs from "./learn/signs.json";
 import street from "./learn/street.json";
@@ -50,6 +54,10 @@ const ALL_ITEMS: LearnItem[] = [
   ...(corenoun as LearnItem[]),
   ...(coreadj as LearnItem[]),
   ...(corefunc as LearnItem[]),
+  ...(midverb as LearnItem[]),
+  ...(midnoun as LearnItem[]),
+  ...(midadj as LearnItem[]),
+  ...(midlink as LearnItem[]),
   ...(customs as LearnItem[]),
   ...(signs as LearnItem[]),
   ...(street as LearnItem[]),
