@@ -14,6 +14,11 @@ import time2 from "./learn/time2.json";
 import transport from "./learn/transport.json";
 import transport2 from "./learn/transport2.json";
 import smalltalk from "./learn/smalltalk.json";
+import culture from "./learn/culture.json";
+import outdoor from "./learn/outdoor.json";
+import locallife from "./learn/locallife.json";
+import feeling from "./learn/feeling.json";
+import cityscape from "./learn/cityscape.json";
 import coreverb from "./learn/coreverb.json";
 import corenoun from "./learn/corenoun.json";
 import coreadj from "./learn/coreadj.json";
@@ -50,6 +55,11 @@ const ALL_ITEMS: LearnItem[] = [
   ...(transport as LearnItem[]),
   ...(transport2 as LearnItem[]),
   ...(smalltalk as LearnItem[]),
+  ...(culture as LearnItem[]),
+  ...(outdoor as LearnItem[]),
+  ...(locallife as LearnItem[]),
+  ...(feeling as LearnItem[]),
+  ...(cityscape as LearnItem[]),
   ...(coreverb as LearnItem[]),
   ...(corenoun as LearnItem[]),
   ...(coreadj as LearnItem[]),
